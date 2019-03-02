@@ -10,11 +10,11 @@ chmod +x geckodriver
 cd ..
 sudo apt-get install python3-venv
 sudo apt-get install python3-pip
-pip install --upgrade pip
+pip install --user --upgrade pip
 #python3 -m pip install --upgrade pip
 python3 -m venv synevn
 source synenv/bin/activate
-pip install -r requirements.txt
+pip install --user -r requirements.txt
 echo "	Successfully Installed all dependencies"
 echo "	To run the script type python3 app.py and then open 0.0.0.0:3000 in firefox"
 echo "	To disable the virtual environment type deactivate"
