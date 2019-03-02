@@ -1,5 +1,5 @@
 # synkrino
-To install download [this as a .sh file](https://github.com/devprabal/synkrino/blob/master/installer.sh) (right click on RAW and click 'Save File As')
+To install download [this as a .sh file](https://github.com/devprabal/synkrino/blob/master/installer.sh) (right click 'Save File As')
 
 Make the downloaded script executable `chmod +x /path/to/installer-script/installer.sh`
 
