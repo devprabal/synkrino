@@ -26,7 +26,7 @@ def get_amazon_price():
     capa["pageLoadStrategy"] = "none"
 
     
-    browser_amazon = webdriver.Firefox(options=options,desired_capabilities=capa, firefox_profile=firefox_profile)
+    browser_amazon = webdriver.Firefox(executable_path="geckodriver-v0.24.0-linux64/geckodriver",options=options,desired_capabilities=capa, firefox_profile=firefox_profile)
     url_amazon='https://www.amazon.in/Samsung-Galaxy-SM-G975FZKDINS-Black-Storage/dp/B07KXC7WQZ'
     browser_amazon.get(url_amazon)
     
@@ -54,7 +54,7 @@ def get_flipkart_price():
     options.add_argument('-headless')
     capa = DesiredCapabilities.FIREFOX
     capa["pageLoadStrategy"] = "none"
-    browser_flipkart = webdriver.Firefox(options=options,desired_capabilities=capa,firefox_profile=firefox_profile)
+    browser_flipkart = webdriver.Firefox(executable_path="geckodriver-v0.24.0-linux64/geckodriver",options=options,desired_capabilities=capa,firefox_profile=firefox_profile)
     url_flipkart = 'https://www.flipkart.com/samsung-galaxy-s10-prism-black-128-gb/p/itmfdyp6fjtxf4hv?pid=MOBFDNHAXFKU9MHA'
     browser_flipkart.get(url_flipkart)
     

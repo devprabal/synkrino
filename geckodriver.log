@@ -1334,3 +1334,27 @@ Exiting due to channel error.
 [Parent 313, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-eA9fYo/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
 1551517908634	Marionette	INFO	Stopped listening on port 33513
 [Parent 315, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-eA9fYo/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551528013502	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.REoVYQGyEYLK"
+1551528014379	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551528014379	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1551528017246	Marionette	INFO	Listening on port 44649
+1551528017270	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 7282, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-eA9fYo/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 7282, Gecko_IOThread] WARNING: pipe error (70): Connection reset by peer: file /build/firefox-eA9fYo/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551528030793	Marionette	INFO	Stopped listening on port 44649
+1551528054485	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.VwlGywEoCT6u"
+1551528054782	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551528054782	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1551528056985	Marionette	INFO	Listening on port 46711
+1551528056997	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 7678, Gecko_IOThread] WARNING: pipe error (92): Connection reset by peer: file /build/firefox-eA9fYo/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 7678, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-eA9fYo/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551528061823	Marionette	INFO	Stopped listening on port 46711
+1551528220486	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rZZry7JdgBGi"
+1551528220793	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551528220793	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1551528223313	Marionette	INFO	Listening on port 42777
+1551528223416	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 8090, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-eA9fYo/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 8090, Gecko_IOThread] WARNING: pipe error (92): Connection reset by peer: file /build/firefox-eA9fYo/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551528233450	Marionette	INFO	Stopped listening on port 42777

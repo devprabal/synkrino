@@ -5,7 +5,7 @@ Created on Thu Feb 28 14:48:51 2019
 
 @author: devpogi
 """
-my_dict={}
-my_dict['a']=[2,3]
-print(my_dict['a'][1])
+from selenium import webdriver
+browser = webdriver.Firefox(executable_path="geckodriver-v0.24.0-linux64/geckodriver")
+browser.get("https://www.google.com")
 
