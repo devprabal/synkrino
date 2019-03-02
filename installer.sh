@@ -7,6 +7,7 @@ cd syn/synkrino-master
 cd geckodriver-v0.24.0-linux64
 chmod +x geckodriver
 cd ..
+sudo apt-get install python3-venv
 python3 -m pip install --upgrade pip
 python3 -m venv synevn
 source synenv/bin/activate
