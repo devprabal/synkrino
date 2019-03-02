@@ -10,7 +10,8 @@ chmod +x geckodriver
 cd ..
 sudo apt-get install python3-venv
 sudo apt-get install python3-pip
-python3 -m pip install --upgrade pip
+pip install --upgrade pip
+#python3 -m pip install --upgrade pip
 python3 -m venv synevn
 source synenv/bin/activate
 pip install -r requirements.txt
