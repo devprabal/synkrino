@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 echo "	Welcome to Synkrino"
+sudo apt-get update
 sudo apt-get install unzip
 wget https://github.com/devprabal/synkrino/archive/master.zip
 unzip -d ./syn master.zip
@@ -8,6 +9,7 @@ cd geckodriver-v0.24.0-linux64
 chmod +x geckodriver
 cd ..
 sudo apt-get install python3-venv
+sudo apt-get install python3-pip
 python3 -m pip install --upgrade pip
 python3 -m venv synevn
 source synenv/bin/activate
