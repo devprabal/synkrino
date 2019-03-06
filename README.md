@@ -4,3 +4,5 @@ To install download [this as a .sh file](https://github.com/devprabal/synkrino/b
 Make the downloaded script executable `chmod +x /path/to/installer-script/installer.sh`
 
 Run the script. `./installer.sh`
+Contributors-
+devprabal,absaw
