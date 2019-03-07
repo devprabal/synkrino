@@ -1,0 +1,9 @@
+div#loading {
+    width: 350px;
+    height: 350px;
+    display: none;
+    cursor: wait;
+    background-size: contain;
+    background-color: aquamarine;
+    background-image: url('doder.gif') no-repeat;
+    }
