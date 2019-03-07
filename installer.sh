@@ -8,6 +8,7 @@ cd syn/synkrino-master
 cd geckodriver-v0.24.0-linux64
 chmod +x geckodriver
 cd ..
+chmod +x app_runner.sh
 sudo apt-get install python3-venv
 sudo apt-get install python3-pip
 
