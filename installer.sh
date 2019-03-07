@@ -19,4 +19,4 @@ pip install -r requirements.txt
 echo "	Successfully Installed all dependencies"
 echo "	To run the script type python3 app.py and then open 0.0.0.0:3000 in firefox"
 echo "	To disable the virtual environment type deactivate"
-
+deactivate
