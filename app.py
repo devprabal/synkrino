@@ -73,7 +73,42 @@ def get_flipkart_price():
     price_and_delay = [flipkart_price,end_time_flipkart-start_time_flipkart]
     my_dict['Samsung S10 Flipkart']=price_and_delay
 
+# This is a prototype..
 
+
+def get_paytm_mall_price():
+    start_time_paytm_mall = time.time()
+    firefox_profile = webdriver.FirefoxProfile()
+    firefox_profile.set_preference('permissions.default.image', 2)
+    firefox_profile.set_preference('dom.ipc.plugins.enabled.libflashplayer.so', 'false')
+    options = Options()
+    options.add_argument('-headless')
+    capa = DesiredCapabilities.FIREFOX
+    capa["pageLoadStrategy"] = "none"
+
+    
+    browser_paytm_mall = webdriver.Firefox(executable_path="geckodriver-v0.24.0-linux64/geckodriver",options=options,desired_capabilities=capa, firefox_profile=firefox_profile)
+    url_paytm_mall='https://paytmmall.com/samsung-galaxy-s10+-8-gb-512-gb-ceramic-black-MOBSAMSUNG-GALAHARD4002272BD4925-pdp?product_id=234393642&src=search-grid&tracker=organic%7C66781%7Csamsung%20galaxy%20s10%7Cgrid%7CSearch_experimentName%3Dnew_ranking%7C%7C2%7Cnew_ranking&site_id=2&child_site_id=6'
+    browser_paytm_mall.get(url_paytm_mall)
+    
+    wait = WebDriverWait(browser_paytm_mall, timeout=20)
+    wait.until(expected.visibility_of_element_located((By.CLASS_NAME, '_1V3w')))
+    
+    browser_paytm_mall.execute_script("window.stop();")
+    
+#    print(browser_amazon.page_source)
+    
+    paytm_mall_price = browser_paytm_mall.find_element_by_class_name("_1V3w").text
+    browser_paytm_mall.quit()
+    end_time_paytm_mall = time.time()
+    price_and_delay = [paytm_mall_price,end_time_paytm_mall-start_time_paytm_mall]
+    my_dict['Samsung S10 PaytmMall']=price_and_delay
+
+
+
+
+
+# End of prototype..
 
 
 @app.route('/')
@@ -86,16 +121,20 @@ def hello():
     main_start_time = time.time()
     t1 = threading.Thread(target=get_amazon_price) 
     t2 = threading.Thread(target=get_flipkart_price) 
-  
+    t3 = threading.Thread(target=get_paytm_mall_price)
     # starting thread 1 
     t1.start() 
     # starting thread 2 
-    t2.start() 
+    t2.start()
+    # starting thread 3 
+    t3.start() 
   
     # wait until thread 1 is completely executed 
     t1.join() 
     # wait until thread 2 is completely executed 
     t2.join() 
+    # wait until thread 3 is completely executed 
+    t3.join()
     
     
     
@@ -161,7 +200,7 @@ def hello():
     
     main_end_time = time.time()
 #    return 'Amazon %s timetaken- %s<br/>Flipkart %s timetaken- %s<br/>Main execution time = %s <br/> <a href="/">Back Home</a>' % (my_dict['Samsung S10 Amazon'][0], my_dict['Samsung S10 Amazon'][1], my_dict['Samsung S10 Flipkart'][0], my_dict['Samsung S10 Flipkart'][1],main_end_time-main_start_time )
-    return render_template('price.html',amazon_price=my_dict['Samsung S10 Amazon'][0],flipkart_price=my_dict['Samsung S10 Flipkart'][0],scraper_run_time=main_end_time-main_start_time)
+    return render_template('price.html',amazon_price=my_dict['Samsung S10 Amazon'][0],flipkart_price=my_dict['Samsung S10 Flipkart'][0],paytm_mall_price=my_dict['Samsung S10 PaytmMall'][0],scraper_run_time=main_end_time-main_start_time)
 
 
 
