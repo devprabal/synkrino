@@ -42,6 +42,7 @@ def get_amazon_price():
     end_time_amazon = time.time()
     price_and_delay = [amazon_price,end_time_amazon-start_time_amazon]
     my_dict['Samsung S10 Amazon']=price_and_delay
+    my_dict['Samsung S10 Amazon_url']=url_amazon
 
 
 
@@ -72,6 +73,7 @@ def get_flipkart_price():
     end_time_flipkart = time.time()
     price_and_delay = [flipkart_price,end_time_flipkart-start_time_flipkart]
     my_dict['Samsung S10 Flipkart']=price_and_delay
+    my_dict['Samsung S10 Flipkart_url']=url_flipkart
 
 # This is a prototype..
 
@@ -103,6 +105,7 @@ def get_paytm_mall_price():
     end_time_paytm_mall = time.time()
     price_and_delay = [paytm_mall_price,end_time_paytm_mall-start_time_paytm_mall]
     my_dict['Samsung S10 PaytmMall']=price_and_delay
+    my_dict['Samsung S10 PaytmMall_url']=url_paytm_mall
 
 
 
@@ -200,8 +203,8 @@ def hello():
     
     main_end_time = time.time()
 #    return 'Amazon %s timetaken- %s<br/>Flipkart %s timetaken- %s<br/>Main execution time = %s <br/> <a href="/">Back Home</a>' % (my_dict['Samsung S10 Amazon'][0], my_dict['Samsung S10 Amazon'][1], my_dict['Samsung S10 Flipkart'][0], my_dict['Samsung S10 Flipkart'][1],main_end_time-main_start_time )
-    return render_template('price.html',amazon_price=my_dict['Samsung S10 Amazon'][0],flipkart_price=my_dict['Samsung S10 Flipkart'][0],paytm_mall_price=my_dict['Samsung S10 PaytmMall'][0],scraper_run_time=main_end_time-main_start_time)
-
+    # return render_template('price.html',amazon_price=my_dict['Samsung S10 Amazon'][0],flipkart_price=my_dict['Samsung S10 Flipkart'][0],paytm_mall_price=my_dict['Samsung S10 PaytmMall'][0],scraper_run_time=main_end_time-main_start_time)
+    return render_template('price.html', scraper_run_time=main_end_time-main_start_time, amazon_price=my_dict['Samsung S10 Amazon'][0], amazon_url=my_dict['Samsung S10 Amazon_url'], flipkart_price=my_dict['Samsung S10 Flipkart'][0], flipkart_url=my_dict['Samsung S10 Flipkart_url'], paytm_mall_price=my_dict['Samsung S10 PaytmMall'][0], paytm_mall_url=my_dict['Samsung S10 PaytmMall_url'])
 
 
 

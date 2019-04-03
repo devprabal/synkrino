@@ -1,60 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Prices</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet"> 
-    <link rel="stylesheet" type="text/css" href="../static/price.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">  
+<link rel="stylesheet" type="text/css" href="../static/price.css">
 </head>
 <body>
-<!--     <p style="color:blue">Amazon price is ({{amazon_price}})</p>
-    <p style="color:brown">Flipkart price is ({{flipkart_price}})</p>
-    <p style="color:brown">Paytm Mall price is ({{paytm_mall_price}})</p> -->
-    <div class="background">
-  <div class="container">
-    <div class="panel pricing-table">
-      
-      <div class="pricing-plan">
-        <img src="https://s22.postimg.cc/8mv5gn7w1/paper-plane.png" alt="" class="pricing-img">
-        <h2 class="pricing-header">AMAZON</h2>
-<!--         <ul class="pricing-features">
-          <li class="pricing-features-item">Custom domains</li>
-          <li class="pricing-features-item">Sleeps after 30 mins of inactivity</li>
-        </ul> -->
-        <span class="pricing-price">{{amazon_price}}</span>
-        <a href="#/" class="pricing-button">Buy Now</a>
-      </div>
-      
-      <div class="pricing-plan">
-        <img src="https://s28.postimg.cc/ju5bnc3x9/plane.png" alt="" class="pricing-img">
-        <h2 class="pricing-header">FLIPKART</h2>
-<!--         <ul class="pricing-features">
-          <li class="pricing-features-item">Never sleeps</li>
-          <li class="pricing-features-item">Multiple workers for more powerful apps</li>
-        </ul> -->
-        <span class="pricing-price">{{flipkart_price}}</span>
-        <a href="#/" class="pricing-button">Buy Now</a>
-      </div>
-      
-      <div class="pricing-plan">
-        <img src="https://s21.postimg.cc/tpm0cge4n/space-ship.png" alt="" class="pricing-img">
-        <h2 class="pricing-header">PAYTM MALL</h2>
-<!--         <ul class="pricing-features">
-          <li class="pricing-features-item">Dedicated</li>
-          <li class="pricing-features-item">Simple horizontal scalability</li>
-        </ul> -->
-        <span class="pricing-price">{{paytm_mall_price}}</span>
-        <a href="#/" class="pricing-button">Buy Now</a>
-      </div>
-      
-    </div>
-  </div>
+
+<h2 style="text-align:center">Synkrino</h2>
+<p style="text-align:center">We scraped out these resuts for you in about <span style="color:rgb(42, 149, 236)">{{scraper_run_time}}</span> seconds.</p>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header">AMAZON</li>
+    <!-- <li class="grey">$ 9.99 / year</li>
+    <li>10GB Storage</li> -->
+    <li><img src="../static/amazon.png"/></li>
+    <li class="grey">{{amazon_price}}</li>
+    <!-- <li>10 Emails</li>
+    <li>10 Domains</li>
+    <li>1GB Bandwidth</li> -->
+    <li class="grey"><a href="{{amazon_url}}" class="button">Buy Now</a></li>
+  </ul>
 </div>
-    <div style="font-size: 2em">
-        Running time of entire scraper = ({{scraper_run_time}})
-    </div>
-    <p><a href="/">Back to home</a></p>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header" >FLIPKART</li>
+    <!-- <li class="grey">$ 24.99 / year</li>
+    <li>25GB Storage</li> -->
+    <li><img src="../static/flipkart.png"/></li>
+    <li class="grey">{{flipkart_price}}</li>
+    <!-- <li>25 Emails</li>
+    <li>25 Domains</li>
+    <li>2GB Bandwidth</li> -->
+    <li class="grey"><a href="{{ flipkart_url }}" class="button">Buy Now</a></li>
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header" >PAYTM MALL</li>
+    
+    <!-- <li>50GB Storage</li> -->
+    <li><img src="../static/paytm.png"/></li>
+    <li class="grey">{{paytm_mall_price}}</li>
+    <!-- <li>50 Emails</li>
+    <li>50 Domains</li>
+    <li>5GB Bandwidth</li> -->
+    <li class="grey"><a href="{{paytm_mall_url}}" class="button">Buy Now</a></li>
+  </ul>
+</div>
+
+<div style="text-align: center">
+    <p style="font-size:18px;font-family:'Noto Sans', sans-serif; color:rgb(58, 54, 54)">Want to try another search?</p>
+  </div>
+<div class="back_home">
+    <p><a href="/">Go back to home</a></p>
+  </div>
 </body>
 </html>
