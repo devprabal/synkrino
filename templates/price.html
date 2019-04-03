@@ -7,9 +7,49 @@
     <title>Prices</title>
 </head>
 <body>
-    <p style="color:blue">Amazon price is ({{amazon_price}})</p>
+<!--     <p style="color:blue">Amazon price is ({{amazon_price}})</p>
     <p style="color:brown">Flipkart price is ({{flipkart_price}})</p>
-    <p style="color:brown">Paytm Mall price is ({{paytm_mall_price}})</p>
+    <p style="color:brown">Paytm Mall price is ({{paytm_mall_price}})</p> -->
+    <div class="background">
+  <div class="container">
+    <div class="panel pricing-table">
+      
+      <div class="pricing-plan">
+        <img src="https://s22.postimg.cc/8mv5gn7w1/paper-plane.png" alt="" class="pricing-img">
+        <h2 class="pricing-header">AMAZON</h2>
+<!--         <ul class="pricing-features">
+          <li class="pricing-features-item">Custom domains</li>
+          <li class="pricing-features-item">Sleeps after 30 mins of inactivity</li>
+        </ul> -->
+        <span class="pricing-price">{{amazon_price}}</span>
+        <a href="#/" class="pricing-button">Buy Now</a>
+      </div>
+      
+      <div class="pricing-plan">
+        <img src="https://s28.postimg.cc/ju5bnc3x9/plane.png" alt="" class="pricing-img">
+        <h2 class="pricing-header">FLIPKART</h2>
+<!--         <ul class="pricing-features">
+          <li class="pricing-features-item">Never sleeps</li>
+          <li class="pricing-features-item">Multiple workers for more powerful apps</li>
+        </ul> -->
+        <span class="pricing-price">{{flipkart_price}}</span>
+        <a href="#/" class="pricing-button">Buy Now</a>
+      </div>
+      
+      <div class="pricing-plan">
+        <img src="https://s21.postimg.cc/tpm0cge4n/space-ship.png" alt="" class="pricing-img">
+        <h2 class="pricing-header">PAYTM MALL</h2>
+<!--         <ul class="pricing-features">
+          <li class="pricing-features-item">Dedicated</li>
+          <li class="pricing-features-item">Simple horizontal scalability</li>
+        </ul> -->
+        <span class="pricing-price">{{paytm_mall_price}}</span>
+        <a href="#/" class="pricing-button">Buy Now</a>
+      </div>
+      
+    </div>
+  </div>
+</div>
     <div style="font-size: 2em">
         Running time of entire scraper = ({{scraper_run_time}})
     </div>
