@@ -16,6 +16,7 @@
   padding: 0;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  border-radius: 25px;
 }
 
 .price:hover {
@@ -28,6 +29,8 @@
   color: white;
   font-size: 25px;
   font-family: 'Noto Sans', sans-serif;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px; 
 }
 
 .price li {
@@ -37,6 +40,15 @@
 }
 
 .price .grey {
+  background-color: #eee;
+  font-size: 20px;
+  color: rgb(13, 142, 248);
+  font-family: 'Noto Sans', sans-serif;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.grey1 {
   background-color: #eee;
   font-size: 20px;
   color: rgb(13, 142, 248);
@@ -81,7 +93,7 @@
   color:rgb(58, 54, 54);
 }
 .back_home:hover{
-  background-color:rgb(42, 149, 236);
+  background-color:rgb(65, 193, 244);
   color:white;
 
 }
