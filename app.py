@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request
 import time
+import json
 import threading
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
@@ -16,38 +17,45 @@ app = Flask(__name__)
 
 my_dict = {}
 def get_amazon_price(prod_id):
-    if prod_id == 'prod1':
-        start_time_amazon = time.time()
-        firefox_profile = webdriver.FirefoxProfile()
-        firefox_profile.set_preference('permissions.default.image', 2)
-        firefox_profile.set_preference('dom.ipc.plugins.enabled.libflashplayer.so', 'false')
-        options = Options()
-        options.add_argument('-headless')
-        capa = DesiredCapabilities.FIREFOX
-        capa["pageLoadStrategy"] = "none"
+    prod_id = int(prod_id[4:])
+    with open('products.json') as json_file:
+        detailed_prod_dict=json.load(json_file)
+    url_amazon=detailed_prod_dict['amazon'][prod_id-1]['amazon_url']
+    start_time_amazon = time.time()
+    firefox_profile = webdriver.FirefoxProfile()
+    firefox_profile.set_preference('permissions.default.image', 2)
+    firefox_profile.set_preference('dom.ipc.plugins.enabled.libflashplayer.so', 'false')
+    options = Options()
+    options.add_argument('-headless')
+    capa = DesiredCapabilities.FIREFOX
+    capa["pageLoadStrategy"] = "none"
 
-        
-        browser_amazon = webdriver.Firefox(executable_path="geckodriver-v0.24.0-linux64/geckodriver",options=options,desired_capabilities=capa, firefox_profile=firefox_profile)
-        url_amazon='https://www.amazon.in/Samsung-Galaxy-SM-G975FZKDINS-Black-Storage/dp/B07KXC7WQZ'
-        browser_amazon.get(url_amazon)
-        
-        wait = WebDriverWait(browser_amazon, timeout=20)
-        wait.until(expected.visibility_of_element_located((By.ID, 'priceblock_ourprice')))
-        
-        browser_amazon.execute_script("window.stop();")
-        
-    #    print(browser_amazon.page_source)
-        
-        amazon_price = browser_amazon.find_element_by_id("priceblock_ourprice").text
-        browser_amazon.quit()
-        end_time_amazon = time.time()
-        price_and_delay = [amazon_price,end_time_amazon-start_time_amazon]
-        my_dict['Samsung S10 Amazon']=price_and_delay
-        my_dict['Samsung S10 Amazon_url']=url_amazon
+    
+    browser_amazon = webdriver.Firefox(executable_path="geckodriver-v0.24.0-linux64/geckodriver",options=options,desired_capabilities=capa, firefox_profile=firefox_profile)
+    # url_amazon='https://www.amazon.in/Samsung-Galaxy-SM-G975FZKDINS-Black-Storage/dp/B07KXC7WQZ'
+    browser_amazon.get(url_amazon)
+    
+    wait = WebDriverWait(browser_amazon, timeout=20)
+    wait.until(expected.visibility_of_element_located((By.ID, 'priceblock_ourprice')))
+    
+    browser_amazon.execute_script("window.stop();")
+    
+#    print(browser_amazon.page_source)
+    
+    amazon_price = browser_amazon.find_element_by_id("priceblock_ourprice").text
+    browser_amazon.quit()
+    end_time_amazon = time.time()
+    price_and_delay = [amazon_price,end_time_amazon-start_time_amazon]
+    my_dict['Samsung S10 Amazon']=price_and_delay
+    my_dict['Samsung S10 Amazon_url']=url_amazon
 
 
 
-def get_flipkart_price():
+def get_flipkart_price(prod_id):
+    prod_id = int(prod_id[4:])
+    with open('products.json') as json_file:
+        detailed_prod_dict=json.load(json_file)
+    url_flipkart=detailed_prod_dict['flipkart'][prod_id-1]['flipkart_url']
     start_time_flipkart = time.time()
     firefox_profile = webdriver.FirefoxProfile()
     firefox_profile.set_preference('permissions.default.image', 2)
@@ -57,7 +65,7 @@ def get_flipkart_price():
     capa = DesiredCapabilities.FIREFOX
     capa["pageLoadStrategy"] = "none"
     browser_flipkart = webdriver.Firefox(executable_path="geckodriver-v0.24.0-linux64/geckodriver",options=options,desired_capabilities=capa,firefox_profile=firefox_profile)
-    url_flipkart = 'https://www.flipkart.com/samsung-galaxy-s10-prism-black-128-gb/p/itmfdyp6fjtxf4hv?pid=MOBFDNHAXFKU9MHA'
+    # url_flipkart = 'https://www.flipkart.com/samsung-galaxy-s10-prism-black-128-gb/p/itmfdyp6fjtxf4hv?pid=MOBFDNHAXFKU9MHA'
     browser_flipkart.get(url_flipkart)
     
     
@@ -79,7 +87,11 @@ def get_flipkart_price():
 # This is a prototype..
 
 
-def get_paytm_mall_price():
+def get_paytm_mall_price(prod_id):
+    prod_id = int(prod_id[4:])
+    with open('products.json') as json_file:
+        detailed_prod_dict=json.load(json_file)
+    url_paytm_mall=detailed_prod_dict['paytm_mall'][prod_id-1]['paytm_mall_url']
     start_time_paytm_mall = time.time()
     firefox_profile = webdriver.FirefoxProfile()
     firefox_profile.set_preference('permissions.default.image', 2)
@@ -91,7 +103,7 @@ def get_paytm_mall_price():
 
     
     browser_paytm_mall = webdriver.Firefox(executable_path="geckodriver-v0.24.0-linux64/geckodriver",options=options,desired_capabilities=capa, firefox_profile=firefox_profile)
-    url_paytm_mall='https://paytmmall.com/samsung-galaxy-s10+-8-gb-512-gb-ceramic-black-MOBSAMSUNG-GALAHARD4002272BD4925-pdp?product_id=234393642&src=search-grid&tracker=organic%7C66781%7Csamsung%20galaxy%20s10%7Cgrid%7CSearch_experimentName%3Dnew_ranking%7C%7C2%7Cnew_ranking&site_id=2&child_site_id=6'
+    # url_paytm_mall='https://paytmmall.com/samsung-galaxy-s10+-8-gb-512-gb-ceramic-black-MOBSAMSUNG-GALAHARD4002272BD4925-pdp?product_id=234393642&src=search-grid&tracker=organic%7C66781%7Csamsung%20galaxy%20s10%7Cgrid%7CSearch_experimentName%3Dnew_ranking%7C%7C2%7Cnew_ranking&site_id=2&child_site_id=6'
     browser_paytm_mall.get(url_paytm_mall)
     
     wait = WebDriverWait(browser_paytm_mall, timeout=20)
@@ -125,8 +137,8 @@ def hello():
     prod_id  = request.args.get('prod_id', None)
     main_start_time = time.time()
     t1 = threading.Thread(target=get_amazon_price,args=(prod_id,)) 
-    t2 = threading.Thread(target=get_flipkart_price) 
-    t3 = threading.Thread(target=get_paytm_mall_price)
+    t2 = threading.Thread(target=get_flipkart_price,args=(prod_id,)) 
+    t3 = threading.Thread(target=get_paytm_mall_price,args=(prod_id,))
     # starting thread 1 
     t1.start() 
     # starting thread 2 
