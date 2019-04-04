@@ -7,11 +7,13 @@
   width: 20%;
   padding: 30px;
   
+  
 }
 
 .price {
   list-style-type: none;
   border: 1px solid #eee;
+  border-radius: 25px;
   margin: 0;
   padding: 0;
   -webkit-transition: 0.3s;
@@ -41,6 +43,8 @@
   font-size: 20px;
   color: rgb(13, 142, 248);
   font-family: 'Noto Sans', sans-serif;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
 }
 
 .button {
