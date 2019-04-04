@@ -6,9 +6,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">  
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../static/index.css">
 
     <style>
         div#loading {
@@ -144,21 +146,28 @@
 
         </div>
 
-        <br><br><br>
-        <div class="row">
-            <div class="col-md-4">
-                <span class="glyphicon glyphicon-grain" area-hidden="true"></span>
-                <h1>Hello Everyone</h1>
-            </div>
-            <div class="col-md-4">
-                <span class="glyphicon glyphicon-grain" area-hidden="true"></span>
-                <h1>Hello Everyone</h1>
-            </div>
-            <div class="col-md-4">
-                <span class="glyphicon glyphicon-grain" area-hidden="true"></span>
-                <h1>Hello Everyone</h1>
-            </div>
-        </div>
+<!-- Jumbotron Ends here -->
+
+<!-- Product Pricing Form start -->
+        <form action="/hello"  method="GET" name="form">
+	           <!--  <div class="form-group">
+	                <input type="text" class="form-control" placeholder="Search for Products">
+	            </div> -->
+	            <!-- <input type="submit" value="product1" onclick="document.pressed=this.value"/> -->
+	            <!-- <button type="submit" name="prod_id" value="prod1" class="btn btn-default" onclick="loading();">Submit</button>
+	            <button type="submit" name="prod_id" value="prod2" class="btn btn-default" onclick="loading();">Submit</button> -->
+
+	        
+     		<!-- Product Pricing table starts -->
+	        <div class="columns">
+			  <ul class="price">
+			    <li class="header">Redmi 6 Pro</li> 
+			    <li><img src="../static/mobilePics/mi6pro.jpeg"/></li>
+			    <li class="grey"><button class="button" type="submit" name="prod_id" value="prod1" onclick="loading();">Explore!</button></li>
+			  </ul>
+			</div>
+
+		</form>
 
         <!--Modal: Login / Register Form-->
         <div class="modal fade" id="modalLRForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
