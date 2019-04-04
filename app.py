@@ -15,34 +15,35 @@ app = Flask(__name__)
 
 
 my_dict = {}
-def get_amazon_price():
-    start_time_amazon = time.time()
-    firefox_profile = webdriver.FirefoxProfile()
-    firefox_profile.set_preference('permissions.default.image', 2)
-    firefox_profile.set_preference('dom.ipc.plugins.enabled.libflashplayer.so', 'false')
-    options = Options()
-    options.add_argument('-headless')
-    capa = DesiredCapabilities.FIREFOX
-    capa["pageLoadStrategy"] = "none"
+def get_amazon_price(prod_id):
+    if prod_id == 'prod1':
+        start_time_amazon = time.time()
+        firefox_profile = webdriver.FirefoxProfile()
+        firefox_profile.set_preference('permissions.default.image', 2)
+        firefox_profile.set_preference('dom.ipc.plugins.enabled.libflashplayer.so', 'false')
+        options = Options()
+        options.add_argument('-headless')
+        capa = DesiredCapabilities.FIREFOX
+        capa["pageLoadStrategy"] = "none"
 
-    
-    browser_amazon = webdriver.Firefox(executable_path="geckodriver-v0.24.0-linux64/geckodriver",options=options,desired_capabilities=capa, firefox_profile=firefox_profile)
-    url_amazon='https://www.amazon.in/Samsung-Galaxy-SM-G975FZKDINS-Black-Storage/dp/B07KXC7WQZ'
-    browser_amazon.get(url_amazon)
-    
-    wait = WebDriverWait(browser_amazon, timeout=20)
-    wait.until(expected.visibility_of_element_located((By.ID, 'priceblock_ourprice')))
-    
-    browser_amazon.execute_script("window.stop();")
-    
-#    print(browser_amazon.page_source)
-    
-    amazon_price = browser_amazon.find_element_by_id("priceblock_ourprice").text
-    browser_amazon.quit()
-    end_time_amazon = time.time()
-    price_and_delay = [amazon_price,end_time_amazon-start_time_amazon]
-    my_dict['Samsung S10 Amazon']=price_and_delay
-    my_dict['Samsung S10 Amazon_url']=url_amazon
+        
+        browser_amazon = webdriver.Firefox(executable_path="geckodriver-v0.24.0-linux64/geckodriver",options=options,desired_capabilities=capa, firefox_profile=firefox_profile)
+        url_amazon='https://www.amazon.in/Samsung-Galaxy-SM-G975FZKDINS-Black-Storage/dp/B07KXC7WQZ'
+        browser_amazon.get(url_amazon)
+        
+        wait = WebDriverWait(browser_amazon, timeout=20)
+        wait.until(expected.visibility_of_element_located((By.ID, 'priceblock_ourprice')))
+        
+        browser_amazon.execute_script("window.stop();")
+        
+    #    print(browser_amazon.page_source)
+        
+        amazon_price = browser_amazon.find_element_by_id("priceblock_ourprice").text
+        browser_amazon.quit()
+        end_time_amazon = time.time()
+        price_and_delay = [amazon_price,end_time_amazon-start_time_amazon]
+        my_dict['Samsung S10 Amazon']=price_and_delay
+        my_dict['Samsung S10 Amazon_url']=url_amazon
 
 
 
@@ -118,11 +119,12 @@ def get_paytm_mall_price():
 def index():
     return render_template('index.html')
 
-@app.route('/hello', methods=['POST'])
+# @app.route('/hello/<prod_id>', methods=['POST'])
+@app.route('/hello')
 def hello():
-    
+    prod_id  = request.args.get('prod_id', None)
     main_start_time = time.time()
-    t1 = threading.Thread(target=get_amazon_price) 
+    t1 = threading.Thread(target=get_amazon_price,args=(prod_id,)) 
     t2 = threading.Thread(target=get_flipkart_price) 
     t3 = threading.Thread(target=get_paytm_mall_price)
     # starting thread 1 
