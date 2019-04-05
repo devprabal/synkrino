@@ -24,38 +24,44 @@ def get_amazon_price(prod_id):
     with open('products.json') as json_file:
         detailed_prod_dict = json.load(json_file)
     url_amazon = detailed_prod_dict['amazon'][prod_id-1]['amazon_url']
-    try:
-        start_time_amazon = time.time()
-        firefox_profile = webdriver.FirefoxProfile()
-        firefox_profile.set_preference('permissions.default.image', 2)
-        firefox_profile.set_preference('dom.ipc.plugins.enabled.libflashplayer.so', 'false')
-        options = Options()
-        options.add_argument('-headless')
-        capa = DesiredCapabilities.FIREFOX
-        capa["pageLoadStrategy"] = "none"
+    if url_amazon!='':
+        try:
+            start_time_amazon = time.time()
+            firefox_profile = webdriver.FirefoxProfile()
+            firefox_profile.set_preference('permissions.default.image', 2)
+            firefox_profile.set_preference('dom.ipc.plugins.enabled.libflashplayer.so', 'false')
+            options = Options()
+            options.add_argument('-headless')
+            capa = DesiredCapabilities.FIREFOX
+            capa["pageLoadStrategy"] = "none"
 
-        browser_amazon = webdriver.Firefox(executable_path="geckodriver-v0.24.0-linux64/geckodriver",options=options, desired_capabilities=capa, firefox_profile=firefox_profile)
-        # url_amazon='https://www.amazon.in/Samsung-Galaxy-SM-G975FZKDINS-Black-Storage/dp/B07KXC7WQZ'
-        browser_amazon.get(url_amazon)
+            browser_amazon = webdriver.Firefox(executable_path="geckodriver-v0.24.0-linux64/geckodriver",options=options, desired_capabilities=capa, firefox_profile=firefox_profile)
+            # url_amazon='https://www.amazon.in/Samsung-Galaxy-SM-G975FZKDINS-Black-Storage/dp/B07KXC7WQZ'
+            browser_amazon.get(url_amazon)
 
-        wait = WebDriverWait(browser_amazon, timeout=20)
-        wait.until(expected.visibility_of_element_located((By.ID, 'priceblock_ourprice')))
+            wait = WebDriverWait(browser_amazon, timeout=20)
+            wait.until(expected.visibility_of_element_located((By.ID, 'priceblock_ourprice')))
 
-        browser_amazon.execute_script("window.stop();")
+            browser_amazon.execute_script("window.stop();")
 
-    #    print(browser_amazon.page_source)
+        #    print(browser_amazon.page_source)
 
-        amazon_price = browser_amazon.find_element_by_id("priceblock_ourprice").text
-        amazon_price = '\u20B9'+str(amazon_price)
-        browser_amazon.quit()
-        end_time_amazon = time.time()
-        price_and_delay = [amazon_price, end_time_amazon-start_time_amazon]
+            amazon_price = browser_amazon.find_element_by_id("priceblock_ourprice").text
+            amazon_price = '\u20B9'+str(amazon_price)
+            browser_amazon.quit()
+            end_time_amazon = time.time()
+            price_and_delay = [amazon_price, end_time_amazon-start_time_amazon]
+            my_dict['Samsung S10 Amazon'] = price_and_delay
+            my_dict['Samsung S10 Amazon_url'] = url_amazon
+        except TimeoutException:
+            price_and_delay = ["Takes too long, try again or click buy now to view product's webpage", 'maybe internet issues']
+            my_dict['Samsung S10 Amazon'] = price_and_delay
+            my_dict['Samsung S10 Amazon_url'] = url_amazon
+    else:
+        price_and_delay = ["Product not available", '']
         my_dict['Samsung S10 Amazon'] = price_and_delay
         my_dict['Samsung S10 Amazon_url'] = url_amazon
-    except TimeoutException:
-        price_and_delay = ["Takes too long, try again or click buy now to view product's webpage", 'maybe internet issues']
-        my_dict['Samsung S10 Amazon'] = price_and_delay
-        my_dict['Samsung S10 Amazon_url'] = url_amazon
+
 
 
 
@@ -64,38 +70,45 @@ def get_flipkart_price(prod_id):
     with open('products.json') as json_file:
         detailed_prod_dict = json.load(json_file)
     url_flipkart = detailed_prod_dict['flipkart'][prod_id-1]['flipkart_url']
-    try:
-        start_time_flipkart = time.time()
-        firefox_profile = webdriver.FirefoxProfile()
-        firefox_profile.set_preference('permissions.default.image', 2)
-        firefox_profile.set_preference('dom.ipc.plugins.enabled.libflashplayer.so', 'false')
-        options = Options()
-        options.add_argument('-headless')
-        capa = DesiredCapabilities.FIREFOX
-        capa["pageLoadStrategy"] = "none"
-        browser_flipkart = webdriver.Firefox(executable_path="geckodriver-v0.24.0-linux64/geckodriver",options=options, desired_capabilities=capa, firefox_profile=firefox_profile)
-        # url_flipkart = 'https://www.flipkart.com/samsung-galaxy-s10-prism-black-128-gb/p/itmfdyp6fjtxf4hv?pid=MOBFDNHAXFKU9MHA'
-        browser_flipkart.get(url_flipkart)
+    if url_flipkart!='':
+        try:
+            start_time_flipkart = time.time()
+            firefox_profile = webdriver.FirefoxProfile()
+            firefox_profile.set_preference('permissions.default.image', 2)
+            firefox_profile.set_preference('dom.ipc.plugins.enabled.libflashplayer.so', 'false')
+            options = Options()
+            options.add_argument('-headless')
+            capa = DesiredCapabilities.FIREFOX
+            capa["pageLoadStrategy"] = "none"
+            browser_flipkart = webdriver.Firefox(executable_path="geckodriver-v0.24.0-linux64/geckodriver",options=options, desired_capabilities=capa, firefox_profile=firefox_profile)
+            # url_flipkart = 'https://www.flipkart.com/samsung-galaxy-s10-prism-black-128-gb/p/itmfdyp6fjtxf4hv?pid=MOBFDNHAXFKU9MHA'
+            browser_flipkart.get(url_flipkart)
 
-        wait = WebDriverWait(browser_flipkart, timeout=20)
-        wait.until(expected.visibility_of_element_located((By.XPATH, "//div[@class='_1vC4OE _3qQ9m1']")))
+            wait = WebDriverWait(browser_flipkart, timeout=20)
+            wait.until(expected.visibility_of_element_located((By.XPATH, "//div[@class='_1vC4OE _3qQ9m1']")))
 
-        browser_flipkart.execute_script("window.stop();")
+            browser_flipkart.execute_script("window.stop();")
 
-    #    print(browser_flipkart.page_source)
+        #    print(browser_flipkart.page_source)
 
-        # flipkart_price = browser_flipkart.find_element_by_class_name("_1vC4OE _3qQ9m1").text
-        flipkart_price = browser_flipkart.find_element_by_xpath("//div[@class='_1vC4OE _3qQ9m1']").text
-        # flipkart_price = '\u20B9'+str(flipkart_price)
-        browser_flipkart.quit()
-        end_time_flipkart = time.time()
-        price_and_delay = [flipkart_price, end_time_flipkart-start_time_flipkart]
-        my_dict['Samsung S10 Flipkart'] = price_and_delay
-        my_dict['Samsung S10 Flipkart_url'] = url_flipkart
-    except TimeoutException:
-        price_and_delay = ["Takes too long, try again or click buy now to view product's webpage", 'maybe internet issues']
-        my_dict['Samsung S10 Flipkart'] = price_and_delay
-        my_dict['Samsung S10 Flipkart_url'] = url_flipkart
+            # flipkart_price = browser_flipkart.find_element_by_class_name("_1vC4OE _3qQ9m1").text
+            flipkart_price = browser_flipkart.find_element_by_xpath("//div[@class='_1vC4OE _3qQ9m1']").text
+            # flipkart_price = '\u20B9'+str(flipkart_price)
+            browser_flipkart.quit()
+            end_time_flipkart = time.time()
+            price_and_delay = [flipkart_price, end_time_flipkart-start_time_flipkart]
+            my_dict['Samsung S10 Flipkart'] = price_and_delay
+            my_dict['Samsung S10 Flipkart_url'] = url_flipkart
+        except TimeoutException:
+            price_and_delay = ["Takes too long, try again or click buy now to view product's webpage", 'maybe internet issues']
+            my_dict['Samsung S10 Flipkart'] = price_and_delay
+            my_dict['Samsung S10 Flipkart_url'] = url_flipkart
+    else:
+        price_and_delay = ["Product not available", '']
+        my_dict['Samsung S10 Amazon'] = price_and_delay
+        my_dict['Samsung S10 Amazon_url'] = url_flipkart
+    
+
 
 
 # This is a prototype..
@@ -106,38 +119,44 @@ def get_paytm_mall_price(prod_id):
     with open('products.json') as json_file:
         detailed_prod_dict = json.load(json_file)
     url_paytm_mall = detailed_prod_dict['paytm_mall'][prod_id -1]['paytm_mall_url']
-    try:
-        start_time_paytm_mall = time.time()
-        firefox_profile = webdriver.FirefoxProfile()
-        firefox_profile.set_preference('permissions.default.image', 2)
-        firefox_profile.set_preference('dom.ipc.plugins.enabled.libflashplayer.so', 'false')
-        options = Options()
-        options.add_argument('-headless')
-        capa = DesiredCapabilities.FIREFOX
-        capa["pageLoadStrategy"] = "none"
+    if url_paytm_mall!='':
+        try:
+            start_time_paytm_mall = time.time()
+            firefox_profile = webdriver.FirefoxProfile()
+            firefox_profile.set_preference('permissions.default.image', 2)
+            firefox_profile.set_preference('dom.ipc.plugins.enabled.libflashplayer.so', 'false')
+            options = Options()
+            options.add_argument('-headless')
+            capa = DesiredCapabilities.FIREFOX
+            capa["pageLoadStrategy"] = "none"
 
-        browser_paytm_mall = webdriver.Firefox(executable_path="geckodriver-v0.24.0-linux64/geckodriver",options=options, desired_capabilities=capa, firefox_profile=firefox_profile)
-        # url_paytm_mall='https://paytmmall.com/samsung-galaxy-s10+-8-gb-512-gb-ceramic-black-MOBSAMSUNG-GALAHARD4002272BD4925-pdp?product_id=234393642&src=search-grid&tracker=organic%7C66781%7Csamsung%20galaxy%20s10%7Cgrid%7CSearch_experimentName%3Dnew_ranking%7C%7C2%7Cnew_ranking&site_id=2&child_site_id=6'
-        browser_paytm_mall.get(url_paytm_mall)
+            browser_paytm_mall = webdriver.Firefox(executable_path="geckodriver-v0.24.0-linux64/geckodriver",options=options, desired_capabilities=capa, firefox_profile=firefox_profile)
+            # url_paytm_mall='https://paytmmall.com/samsung-galaxy-s10+-8-gb-512-gb-ceramic-black-MOBSAMSUNG-GALAHARD4002272BD4925-pdp?product_id=234393642&src=search-grid&tracker=organic%7C66781%7Csamsung%20galaxy%20s10%7Cgrid%7CSearch_experimentName%3Dnew_ranking%7C%7C2%7Cnew_ranking&site_id=2&child_site_id=6'
+            browser_paytm_mall.get(url_paytm_mall)
 
-        wait = WebDriverWait(browser_paytm_mall, timeout=20)
-        wait.until(expected.visibility_of_element_located((By.CLASS_NAME, '_1V3w')))
+            wait = WebDriverWait(browser_paytm_mall, timeout=20)
+            wait.until(expected.visibility_of_element_located((By.CLASS_NAME, '_1V3w')))
 
-        browser_paytm_mall.execute_script("window.stop();")
+            browser_paytm_mall.execute_script("window.stop();")
 
-    #    print(browser_amazon.page_source)
+        #    print(browser_amazon.page_source)
 
-        paytm_mall_price = browser_paytm_mall.find_element_by_class_name("_1V3w").text
-        paytm_mall_price = '\u20B9'+str(paytm_mall_price)
-        browser_paytm_mall.quit()
-        end_time_paytm_mall = time.time()
-        price_and_delay = [paytm_mall_price,end_time_paytm_mall-start_time_paytm_mall]
-        my_dict['Samsung S10 PaytmMall'] = price_and_delay
-        my_dict['Samsung S10 PaytmMall_url'] = url_paytm_mall
-    except TimeoutException:
-        price_and_delay = ["Takes too long, try again or click buy now to view product's webpage", 'maybe internet issues']
-        my_dict['Samsung S10 PaytmMall'] = price_and_delay
-        my_dict['Samsung S10 PaytmMall_url'] = url_paytm_mall
+            paytm_mall_price = browser_paytm_mall.find_element_by_class_name("_1V3w").text
+            paytm_mall_price = '\u20B9'+str(paytm_mall_price)
+            browser_paytm_mall.quit()
+            end_time_paytm_mall = time.time()
+            price_and_delay = [paytm_mall_price,end_time_paytm_mall-start_time_paytm_mall]
+            my_dict['Samsung S10 PaytmMall'] = price_and_delay
+            my_dict['Samsung S10 PaytmMall_url'] = url_paytm_mall
+        except TimeoutException:
+            price_and_delay = ["Takes too long, try again or click buy now to view product's webpage", 'maybe internet issues']
+            my_dict['Samsung S10 PaytmMall'] = price_and_delay
+            my_dict['Samsung S10 PaytmMall_url'] = url_paytm_mall
+    else:
+        price_and_delay = ["Product not available", '']
+        my_dict['Samsung S10 Amazon'] = price_and_delay
+        my_dict['Samsung S10 Amazon_url'] = url_paytm_mall
+
 
 # End of prototype..
 

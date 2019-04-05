@@ -3074,3 +3074,550 @@ console.error: BroadcastService:
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1554439891679	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.49NqPqb6HK8O"
+1554439891679	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.1qGRLnZBOPLn"
+1554439891680	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.3n3gYtz4TDCa"
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+1554439892692	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554439892692	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554439892692	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554439892692	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554439892692	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554439892692	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554439892692	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554439892693	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554439892693	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554439897518	Marionette	INFO	Listening on port 40393
+1554439897521	Marionette	INFO	Listening on port 46721
+1554439897522	Marionette	INFO	Listening on port 44895
+1554439897533	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554439897625	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554439897649	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554439900893	Marionette	INFO	Stopped listening on port 40393
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Child 5329, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-bSHUpI/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Parent 4774, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-bSHUpI/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+JavaScript error: https://img1a.flixcart.com/www/linchpin/fk-cp-zion/js/runtime.f146f360.js, line 1: Error: Loading chunk 5 failed.
+(error: https://img1a.flixcart.com/www/linchpin/fk-cp-zion/js/MultiWidgetPage.chunk.ba5283e1.js)
+1554439901996	Marionette	INFO	Stopped listening on port 46721
+console.error: 
+  [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAppShellService.hiddenDOMWindow]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/DownloadsManager.jsm :: init :: line 44"  data: no]: init@resource://activity-stream/lib/DownloadsManager.jsm:44:5
+postInit@resource://activity-stream/lib/HighlightsFeed.jsm:60:5
+handler@resource://gre/modules/EventEmitter.jsm:94:11
+emit@resource://gre/modules/EventEmitter.jsm:149:11
+init@resource://activity-stream/lib/SectionsManager.jsm:119:5
+
+JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 171: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavHistoryService.addObserver]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 675: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "JSON store: writing data"
+JavaScript error: resource://gre/modules/IndexedDB.jsm, line 349: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+JavaScript error: resource://gre/modules/IndexedDB.jsm, line 349: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+JavaScript error: resource://gre/modules/IndexedDB.jsm, line 349: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 834: Error: Connection is not open.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 597: TypeError: this.tablesData[table] is undefined
+1554439902403	Marionette	INFO	Stopped listening on port 44895
+[Parent 4773, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-bSHUpI/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 597: TypeError: this.tablesData[table] is undefined
+1554440006919	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.59JxKOx3AR1W"
+1554440006919	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.6RVjELYQRCvU"
+1554440006920	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.pPeUpwPKEcLq"
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+1554440007180	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554440007181	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554440007181	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554440007183	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554440007184	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554440007184	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554440007198	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554440007198	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554440007198	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554440010412	Marionette	INFO	Listening on port 44325
+1554440010432	Marionette	INFO	Listening on port 42271
+1554440010434	Marionette	INFO	Listening on port 40121
+1554440010438	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554440010529	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554440010530	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554440014287	Marionette	INFO	Stopped listening on port 40121
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+console.error: 
+  [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAppShellService.hiddenDOMWindow]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/DownloadsManager.jsm :: init :: line 44"  data: no]: init@resource://activity-stream/lib/DownloadsManager.jsm:44:5
+postInit@resource://activity-stream/lib/HighlightsFeed.jsm:60:5
+handler@resource://gre/modules/EventEmitter.jsm:94:11
+emit@resource://gre/modules/EventEmitter.jsm:149:11
+init@resource://activity-stream/lib/SectionsManager.jsm:119:5
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 834: Error: Connection is not open.
+1554440015840	Marionette	INFO	Stopped listening on port 44325
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 597: TypeError: this.tablesData[table] is undefined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1554440118483	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.47LvJjLpWNnJ"
+1554440118483	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.sa1aO32xmVqg"
+*** You are running in headless mode.
+*** You are running in headless mode.
+1554440118504	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.0PjkKHZyCdBr"
+*** You are running in headless mode.
+1554440118730	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554440118730	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554440118730	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554440118927	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554440118927	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554440118927	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554440118927	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554440118927	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554440118927	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554440122208	Marionette	INFO	Listening on port 34399
+1554440122293	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554440122410	Marionette	INFO	Listening on port 42589
+1554440122452	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554440122505	Marionette	INFO	Listening on port 44705
+1554440122597	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554440125579	Marionette	INFO	Stopped listening on port 34399
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+1554440125630	Marionette	INFO	Stopped listening on port 42589
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 6617, Gecko_IOThread] WARNING: pipe error (73): Connection reset by peer: file /build/firefox-bSHUpI/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+JavaScript error: resource://gre/modules/ExtensionSettingsStore.jsm, line 103: Error: The ExtensionSettingsStore was accessed before the initialize promise resolved.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 834: Error: Connection is not open.
+console.error: 
+  [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAppShellService.hiddenDOMWindow]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/DownloadsManager.jsm :: init :: line 44"  data: no]: init@resource://activity-stream/lib/DownloadsManager.jsm:44:5
+postInit@resource://activity-stream/lib/HighlightsFeed.jsm:60:5
+handler@resource://gre/modules/EventEmitter.jsm:94:11
+emit@resource://gre/modules/EventEmitter.jsm:149:11
+init@resource://activity-stream/lib/SectionsManager.jsm:119:5
+observe@resource://gre/modules/AsyncShutdown.jsm:533:9
+
+1554440127600	Marionette	INFO	Stopped listening on port 44705
+[Parent 6618, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-bSHUpI/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1554440185870	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.FDYejvOBwC1G"
+1554440185872	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8XCjdq415Z1F"
+1554440185872	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xVWDbL4wBVoC"
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+1554440186148	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554440186148	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554440186148	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554440186149	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554440186150	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554440186150	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554440186164	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554440186164	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554440186164	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554440189394	Marionette	INFO	Listening on port 41511
+1554440189436	Marionette	INFO	Listening on port 41025
+1554440189470	Marionette	INFO	Listening on port 42427
+1554440189482	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554440189484	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554440189535	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554440192782	Marionette	INFO	Stopped listening on port 41025
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+JavaScript error: resource://gre/modules/ExtensionSettingsStore.jsm, line 103: Error: The ExtensionSettingsStore was accessed before the initialize promise resolved.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 834: Error: Connection is not open.
+console.error: 
+  [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAppShellService.hiddenDOMWindow]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/DownloadsManager.jsm :: init :: line 44"  data: no]: init@resource://activity-stream/lib/DownloadsManager.jsm:44:5
+postInit@resource://activity-stream/lib/HighlightsFeed.jsm:60:5
+handler@resource://gre/modules/EventEmitter.jsm:94:11
+emit@resource://gre/modules/EventEmitter.jsm:149:11
+init@resource://activity-stream/lib/SectionsManager.jsm:119:5
+observe@resource://gre/modules/AsyncShutdown.jsm:533:9
+
+1554440193799	Marionette	INFO	Stopped listening on port 41511
+[Parent 7490, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-bSHUpI/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+JavaScript error: https://img1a.flixcart.com/www/linchpin/fk-cp-zion/js/runtime.f146f360.js, line 1: Error: Loading chunk 5 failed.
+(error: https://img1a.flixcart.com/www/linchpin/fk-cp-zion/js/MultiWidgetPage.chunk.ba5283e1.js)
+1554440194124	Marionette	INFO	Stopped listening on port 42427
+[Parent 7493, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-bSHUpI/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1554440211943	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ll3QwGO3ExRW"
+1554440211943	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.87pNQR6jmoA3"
+1554440211943	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.5PMexJj2Ovi8"
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+1554440212217	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554440212217	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554440212218	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554440212224	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554440212225	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554440212225	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554440212230	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554440212231	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554440212231	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554440215710	Marionette	INFO	Listening on port 38161
+1554440215715	Marionette	INFO	Listening on port 42411
+1554440215767	Marionette	INFO	Listening on port 37107
+1554440215770	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554440215773	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554440215856	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554440219606	Marionette	INFO	Stopped listening on port 37107
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+JavaScript error: resource://gre/modules/ExtensionSettingsStore.jsm, line 103: Error: The ExtensionSettingsStore was accessed before the initialize promise resolved.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 834: Error: Connection is not open.
+console.error: 
+  [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAppShellService.hiddenDOMWindow]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/DownloadsManager.jsm :: init :: line 44"  data: no]: init@resource://activity-stream/lib/DownloadsManager.jsm:44:5
+postInit@resource://activity-stream/lib/HighlightsFeed.jsm:60:5
+handler@resource://gre/modules/EventEmitter.jsm:94:11
+emit@resource://gre/modules/EventEmitter.jsm:149:11
+init@resource://activity-stream/lib/SectionsManager.jsm:119:5
+observe@resource://gre/modules/AsyncShutdown.jsm:533:9
+
+1554440224097	Marionette	INFO	Stopped listening on port 38161
+[Parent 8377, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-bSHUpI/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1554440225972	Marionette	INFO	Stopped listening on port 42411
+[Parent 8376, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-bSHUpI/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1554440234648	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Gu9icVQeCJjf"
+1554440234650	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.qvuCClc27wfB"
+*** You are running in headless mode.
+*** You are running in headless mode.
+1554440234670	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Dd3hQmPoY2RC"
+*** You are running in headless mode.
+1554440234902	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554440234902	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554440234903	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554440234909	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554440234909	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554440234909	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554440234920	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554440234920	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554440234920	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554440238295	Marionette	INFO	Listening on port 42125
+1554440238336	Marionette	INFO	Listening on port 39391
+1554440238361	Marionette	INFO	Listening on port 35939
+1554440238382	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554440238391	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554440238461	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554440242535	Marionette	INFO	Stopped listening on port 35939
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 9219, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-bSHUpI/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1554440244506	Marionette	INFO	Stopped listening on port 42125
+[Parent 9228, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-bSHUpI/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1554440247694	Marionette	INFO	Stopped listening on port 39391
+[Parent 9217, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-bSHUpI/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1554441418407	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.OS89fNqNooGt"
+1554441418407	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.XY65RxOYKEDD"
+1554441418407	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.6lez7iVD8xdu"
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+1554441418679	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554441418679	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554441418679	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554441418687	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554441418687	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554441418687	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554441418688	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554441418688	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554441418688	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554441422679	Marionette	INFO	Listening on port 43889
+1554441422734	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554441422762	Marionette	INFO	Listening on port 44965
+1554441422780	Marionette	INFO	Listening on port 45057
+1554441422834	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554441422835	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554441424996	Marionette	INFO	Stopped listening on port 45057
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  UnknownError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1554441427170	Marionette	INFO	Stopped listening on port 44965
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 597: TypeError: this.tablesData[table] is undefined
+1554441427512	Marionette	INFO	Stopped listening on port 43889
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 19998, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-bSHUpI/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 597: TypeError: this.tablesData[table] is undefined
+JavaScript error: resource://gre/modules/ExtensionSettingsStore.jsm, line 103: Error: The ExtensionSettingsStore was accessed before the initialize promise resolved.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 834: Error: Connection is not open.
+console.error: 
+  [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAppShellService.hiddenDOMWindow]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/DownloadsManager.jsm :: init :: line 44"  data: no]: init@resource://activity-stream/lib/DownloadsManager.jsm:44:5
+postInit@resource://activity-stream/lib/HighlightsFeed.jsm:60:5
+handler@resource://gre/modules/EventEmitter.jsm:94:11
+emit@resource://gre/modules/EventEmitter.jsm:149:11
+init@resource://activity-stream/lib/SectionsManager.jsm:119:5
+observe@resource://gre/modules/AsyncShutdown.jsm:533:9
+
+console.error: 
+  [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAppShellService.hiddenDOMWindow]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/DownloadsManager.jsm :: init :: line 44"  data: no]: init@resource://activity-stream/lib/DownloadsManager.jsm:44:5
+postInit@resource://activity-stream/lib/HighlightsFeed.jsm:60:5
+handler@resource://gre/modules/EventEmitter.jsm:94:11
+emit@resource://gre/modules/EventEmitter.jsm:149:11
+init@resource://activity-stream/lib/SectionsManager.jsm:119:5
+
+JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 171: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavHistoryService.addObserver]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 675: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "JSON store: writing data"
+JavaScript error: resource://gre/modules/IndexedDB.jsm, line 349: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+JavaScript error: resource://gre/modules/IndexedDB.jsm, line 349: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+JavaScript error: resource://gre/modules/IndexedDB.jsm, line 349: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 834: Error: Connection is not open.
+1554442087334	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.FdDDCduBqoGL"
+1554442087337	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Cpzean0aV2vQ"
+*** You are running in headless mode.
+*** You are running in headless mode.
+1554442087582	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554442087582	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554442087582	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554442087582	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554442087582	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554442087582	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554442088354	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.IJ20IalVl5nh"
+*** You are running in headless mode.
+1554442088602	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554442088602	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554442088602	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554442091087	Marionette	INFO	Listening on port 45299
+1554442091148	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554442091234	Marionette	INFO	Listening on port 43219
+1554442091304	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554442092984	Marionette	INFO	Listening on port 46861
+1554442093067	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554442095678	Marionette	INFO	Stopped listening on port 45299
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 21156, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-bSHUpI/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 597: TypeError: this.tablesData[table] is undefined
+1554442095965	Marionette	INFO	Stopped listening on port 43219
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+JavaScript error: resource://gre/modules/ExtensionSettingsStore.jsm, line 103: Error: The ExtensionSettingsStore was accessed before the initialize promise resolved.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 834: Error: Connection is not open.
+console.error: 
+  [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAppShellService.hiddenDOMWindow]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/DownloadsManager.jsm :: init :: line 44"  data: no]: init@resource://activity-stream/lib/DownloadsManager.jsm:44:5
+postInit@resource://activity-stream/lib/HighlightsFeed.jsm:60:5
+handler@resource://gre/modules/EventEmitter.jsm:94:11
+emit@resource://gre/modules/EventEmitter.jsm:149:11
+init@resource://activity-stream/lib/SectionsManager.jsm:119:5
+observe@resource://gre/modules/AsyncShutdown.jsm:533:9
+
+[Parent 21157, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-bSHUpI/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 597: TypeError: this.tablesData[table] is undefined
+JavaScript error: resource://gre/modules/ExtensionSettingsStore.jsm, line 103: Error: The ExtensionSettingsStore was accessed before the initialize promise resolved.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 834: Error: Connection is not open.
+console.error: 
+  [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAppShellService.hiddenDOMWindow]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/DownloadsManager.jsm :: init :: line 44"  data: no]: init@resource://activity-stream/lib/DownloadsManager.jsm:44:5
+postInit@resource://activity-stream/lib/HighlightsFeed.jsm:60:5
+handler@resource://gre/modules/EventEmitter.jsm:94:11
+emit@resource://gre/modules/EventEmitter.jsm:149:11
+init@resource://activity-stream/lib/SectionsManager.jsm:119:5
+observe@resource://gre/modules/AsyncShutdown.jsm:533:9
+
+1554442097270	Marionette	INFO	Stopped listening on port 46861
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 597: TypeError: this.tablesData[table] is undefined
+[Parent 21349, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-bSHUpI/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1554442197868	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.30aqwv6xtCqf"
+1554442197869	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.AgtSHfUC7o08"
+*** You are running in headless mode.
+*** You are running in headless mode.
+1554442197890	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.F4tZk9uyMv3Z"
+*** You are running in headless mode.
+1554442198186	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554442198186	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554442198186	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554442198186	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554442198186	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554442198187	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554442198210	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554442198210	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554442198210	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554442202214	Marionette	INFO	Listening on port 39887
+1554442202221	Marionette	INFO	Listening on port 39547
+1554442202266	Marionette	INFO	Listening on port 33035
+1554442202290	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554442202304	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554442202322	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554442204556	Marionette	INFO	Stopped listening on port 39547
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x52000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500BB,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  UnknownError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1554442206913	Marionette	INFO	Stopped listening on port 33035
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 22016, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-bSHUpI/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1554442207055	Marionette	INFO	Stopped listening on port 39887
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 597: TypeError: this.tablesData[table] is undefined
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 597: TypeError: this.tablesData[table] is undefined
+JavaScript error: resource://gre/modules/ExtensionSettingsStore.jsm, line 103: Error: The ExtensionSettingsStore was accessed before the initialize promise resolved.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 834: Error: Connection is not open.
+console.error: 
+  [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAppShellService.hiddenDOMWindow]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/DownloadsManager.jsm :: init :: line 44"  data: no]: init@resource://activity-stream/lib/DownloadsManager.jsm:44:5
+postInit@resource://activity-stream/lib/HighlightsFeed.jsm:60:5
+handler@resource://gre/modules/EventEmitter.jsm:94:11
+emit@resource://gre/modules/EventEmitter.jsm:149:11
+init@resource://activity-stream/lib/SectionsManager.jsm:119:5
+observe@resource://gre/modules/AsyncShutdown.jsm:533:9
+
+JavaScript error: resource://gre/modules/ExtensionSettingsStore.jsm, line 103: Error: The ExtensionSettingsStore was accessed before the initialize promise resolved.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 834: Error: Connection is not open.
+console.error: 
+  [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAppShellService.hiddenDOMWindow]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/DownloadsManager.jsm :: init :: line 44"  data: no]: init@resource://activity-stream/lib/DownloadsManager.jsm:44:5
+postInit@resource://activity-stream/lib/HighlightsFeed.jsm:60:5
+handler@resource://gre/modules/EventEmitter.jsm:94:11
+emit@resource://gre/modules/EventEmitter.jsm:149:11
+init@resource://activity-stream/lib/SectionsManager.jsm:119:5
+observe@resource://gre/modules/AsyncShutdown.jsm:533:9
+
+1554442316836	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.qJjyNKBlJhu4"
+1554442316837	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.d6w0sUoRl0mJ"
+1554442316839	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.nBJzVDE8Isow"
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+1554442317148	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554442317148	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554442317148	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554442317153	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554442317154	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554442317154	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554442317158	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554442317158	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554442317158	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554442321091	Marionette	INFO	Listening on port 35907
+1554442321101	Marionette	INFO	Listening on port 33453
+1554442321132	Marionette	INFO	Listening on port 44551
+1554442321158	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554442321164	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554442321204	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554442324487	Marionette	INFO	Stopped listening on port 33453
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 22855, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-bSHUpI/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1554442325773	Marionette	INFO	Stopped listening on port 44551
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 22854, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-bSHUpI/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 22854, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-bSHUpI/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 171: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavHistoryService.addObserver]
+JavaScript error: resource://gre/modules/ExtensionSettingsStore.jsm, line 103: Error: The ExtensionSettingsStore was accessed before the initialize promise resolved.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 834: Error: Connection is not open.
+1554442326480	Marionette	INFO	Stopped listening on port 35907
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+console.error: 
+  [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAppShellService.hiddenDOMWindow]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/DownloadsManager.jsm :: init :: line 44"  data: no]: init@resource://activity-stream/lib/DownloadsManager.jsm:44:5
+postInit@resource://activity-stream/lib/HighlightsFeed.jsm:60:5
+handler@resource://gre/modules/EventEmitter.jsm:94:11
+emit@resource://gre/modules/EventEmitter.jsm:149:11
+init@resource://activity-stream/lib/SectionsManager.jsm:119:5
+
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+1554443043696	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.WvWoUY5RZK0i"
+1554443043696	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.QCCkU9YyUsxF"
+1554443043696	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.qBSNDD34xisZ"
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+1554443043983	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554443043984	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554443043984	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554443043986	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554443043986	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554443043986	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554443044020	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554443044021	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554443044021	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554443047808	Marionette	INFO	Listening on port 39195
+1554443047836	Marionette	INFO	Listening on port 33053
+1554443047875	Marionette	INFO	Listening on port 39401
+1554443047910	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554443047914	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554443047917	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554443050602	Marionette	INFO	Stopped listening on port 39401
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+1554443051693	Marionette	INFO	Stopped listening on port 39195
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 23840, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-bSHUpI/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  UnknownError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+1554443052677	Marionette	INFO	Stopped listening on port 33053
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 23841, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-bSHUpI/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 597: TypeError: this.tablesData[table] is undefined
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+console.error: 
+  [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAppShellService.hiddenDOMWindow]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/DownloadsManager.jsm :: init :: line 44"  data: no]: init@resource://activity-stream/lib/DownloadsManager.jsm:44:5
+postInit@resource://activity-stream/lib/HighlightsFeed.jsm:60:5
+handler@resource://gre/modules/EventEmitter.jsm:94:11
+emit@resource://gre/modules/EventEmitter.jsm:149:11
+init@resource://activity-stream/lib/SectionsManager.jsm:119:5
+
+JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 171: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavHistoryService.addObserver]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 675: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "JSON store: writing data"
+JavaScript error: resource://gre/modules/IndexedDB.jsm, line 349: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+JavaScript error: resource://gre/modules/IndexedDB.jsm, line 349: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+JavaScript error: resource://gre/modules/IndexedDB.jsm, line 349: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 834: Error: Connection is not open.
