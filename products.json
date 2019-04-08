@@ -2,187 +2,190 @@
     "amazon": [
         {
             "prod_id": "prod1",
-            "amazon_url": "https://www.amazon.in/Redmi-Pro-Black-32GB-Storage/dp/B07DJL15QT/ref=zg_bs_1805560031_3?_encoding=UTF8&psc=1&refRID=1MYVCMGTNZVQH1KK5YXP"
-        },
-        {
-            "prod_id": "prod2",
-            "amazon_url": "https://www.amazon.in/Redmi-Black-3GB-32GB-Storage/dp/B077Q7F7Z3/ref=zg_bs_1805560031_8?_encoding=UTF8&psc=1&refRID=1MYVCMGTNZVQH1KK5YXP"
-        },
-        {
-            "prod_id": "prod3",
-            "amazon_url": "https://www.amazon.in/Samsung-Galaxy-Note-Midnight-Storage/dp/B07G8BNVDB/ref=sr_1_3?keywords=samsung+galaxy+note+9&qid=1554374071&s=gateway&sr=8-3"
-        },
-        {
-            "prod_id": "prod4",
-            "amazon_url": "https://www.amazon.in/Google-Pixel-Just-Black-Storage/dp/B07K2JSCX5/ref=sr_1_3?keywords=google+pixel+3&qid=1554374268&s=gateway&sr=8-3"
-        },
-        {
-            "prod_id": "prod5",
-            "amazon_url": "https://www.amazon.in/Redmi-Note-Onyx-Black-64GB/dp/B07PKTGR91/ref=sr_1_2?keywords=redmi+note+7&qid=1554374622&s=gateway&sr=8-2"
-        },
-        {
-            "prod_id": "prod6",
-            "amazon_url": "https://www.amazon.in/Oppo-Thunder-Black-Storage-Offer/dp/B07KXCK8SD/ref=zg_bs_1805560031_40?_encoding=UTF8&psc=1&refRID=1MYVCMGTNZVQH1KK5YXP"
-        },
-        {
-            "prod_id": "prod7",
-            "amazon_url": "https://www.amazon.in/Vivo-1814-Starry-Black-Storage/dp/B07KXC1YG5/ref=sr_1_2?keywords=vivo+y93&qid=1554374901&s=gateway&sr=8-2"
-        },
-        {
-            "prod_id": "prod8",
-            "amazon_url": "https://www.amazon.in/Motorola-XT1955-4-Moto-Power-Black/dp/B07NQGV37P"
-        },
-        {
-            "prod_id": "prod9",
-            "amazon_url": "https://www.amazon.in/Honor-Lite-Glacier-Grey-Memory/dp/B07BNRSZ4K/ref=sr_1_1?keywords=honor+9+lite&qid=1554375529&s=electronics&sr=1-1"
-        },
-        {
-            "prod_id": "prod10",
-            "amazon_url": "https://www.amazon.in/Moto-Plus-Indigo-Black-battery/dp/B077PWK5BT/ref=zg_bs_1805560031_50?_encoding=UTF8&psc=1&refRID=1MYVCMGTNZVQH1KK5YXP"
-        },
-        {
-            "prod_id": "prod11",
             "amazon_url": "https://www.amazon.in/Samsung-Galaxy-128GB-Storage-Offer/dp/B07KXCK8S6/ref=sr_1_1?keywords=samsung+s10&qid=1554440290&s=gateway&sr=8-1"
         },
         {
-            "prod_id": "prod12",
-            "amazon_url": "https://www.amazon.in/Nokia-6-1-Plus-Black-64Gb/dp/B07M7PJNYJ/ref=sr_1_4?keywords=nokia+6.1&qid=1554440579&s=gateway&sr=8-4"
-        },
-        {
-            "prod_id": "prod13",
+            "prod_id": "prod2",
             "amazon_url": "https://www.amazon.in/Apple-iPhone-Xs-64GB-Gold/dp/B07J316BT2/ref=sr_1_3?keywords=iphone+xs&qid=1554440858&s=gateway&sr=8-3"
         },
         {
-            "prod_id": "prod14",
+            "prod_id": "prod3",
+            "amazon_url": "https://www.amazon.in/Nokia-6-1-Plus-Black-64Gb/dp/B07M7PJNYJ/ref=sr_1_4?keywords=nokia+6.1&qid=1554440579&s=gateway&sr=8-4"
+        },
+        {
+            "prod_id": "prod4",
+            "amazon_url": "https://www.amazon.in/Nokia-7-1_BL-Blue-64GB-Storage/dp/B07L8DZP8P/ref=sr_1_1?keywords=nokia+7.1&qid=1554441286&s=gateway&sr=8-1"
+        },
+        {
+            "prod_id": "prod5",
             "amazon_url": "https://www.amazon.in/Huawei-Lite-Blue-64GB-Storage/dp/B0784D8628/ref=sr_1_3?keywords=huawei+p20+lite&qid=1554441141&s=gateway&sr=8-3"
         },
         {
+            "prod_id": "prod6",
+            "amazon_url": "https://www.amazon.in/Redmi-Pro-Black-32GB-Storage/dp/B07DJL15QT/ref=zg_bs_1805560031_3?_encoding=UTF8&psc=1&refRID=1MYVCMGTNZVQH1KK5YXP"
+        },
+        {
+            "prod_id": "prod7",
+            "amazon_url": "https://www.amazon.in/Redmi-Black-3GB-32GB-Storage/dp/B077Q7F7Z3/ref=zg_bs_1805560031_8?_encoding=UTF8&psc=1&refRID=1MYVCMGTNZVQH1KK5YXP"
+        },
+        {
+            "prod_id": "prod8",
+            "amazon_url": "https://www.amazon.in/Samsung-Galaxy-Note-Midnight-Storage/dp/B07G8BNVDB/ref=sr_1_3?keywords=samsung+galaxy+note+9&qid=1554374071&s=gateway&sr=8-3"
+        },
+        {
+            "prod_id": "prod9",
+            "amazon_url": "https://www.amazon.in/Google-Pixel-Just-Black-Storage/dp/B07K2JSCX5/ref=sr_1_3?keywords=google+pixel+3&qid=1554374268&s=gateway&sr=8-3"
+        },
+        {
+            "prod_id": "prod10",
+            "amazon_url": "https://www.amazon.in/Redmi-Note-Onyx-Black-64GB/dp/B07PKTGR91/ref=sr_1_2?keywords=redmi+note+7&qid=1554374622&s=gateway&sr=8-2"
+        },
+        {
+            "prod_id": "prod11",
+            "amazon_url": "https://www.amazon.in/Oppo-Thunder-Black-Storage-Offer/dp/B07KXCK8SD/ref=zg_bs_1805560031_40?_encoding=UTF8&psc=1&refRID=1MYVCMGTNZVQH1KK5YXP"
+        },
+        {
+            "prod_id": "prod12",
+            "amazon_url": "https://www.amazon.in/Vivo-1814-Starry-Black-Storage/dp/B07KXC1YG5/ref=sr_1_2?keywords=vivo+y93&qid=1554374901&s=gateway&sr=8-2"
+        },
+        {
+            "prod_id": "prod13",
+            "amazon_url": "https://www.amazon.in/Motorola-XT1955-4-Moto-Power-Black/dp/B07NQGV37P"
+        },
+        {
+            "prod_id": "prod14",
+            "amazon_url": "https://www.amazon.in/Honor-Lite-Glacier-Grey-Memory/dp/B07BNRSZ4K/ref=sr_1_1?keywords=honor+9+lite&qid=1554375529&s=electronics&sr=1-1"
+        },
+        {
             "prod_id": "prod15",
-            "amazon_url": "https://www.amazon.in/Nokia-7-1_BL-Blue-64GB-Storage/dp/B07L8DZP8P/ref=sr_1_1?keywords=nokia+7.1&qid=1554441286&s=gateway&sr=8-1"
+            "amazon_url": "https://www.amazon.in/Moto-Plus-Indigo-Black-battery/dp/B077PWK5BT/ref=zg_bs_1805560031_50?_encoding=UTF8&psc=1&refRID=1MYVCMGTNZVQH1KK5YXP"
         }
     ],
     "flipkart": [
         {
             "prod_id": "prod1",
-            "flipkart_url": "https://www.flipkart.com/redmi-6-pro-lake-blue-64-gb/p/itmfdswrffgpqv7z?pid=MOBFBH5TN3NGYZFW&srno=s_1_1&otracker=search&otracker1=search&lid=LSTMOBFBH5TN3NGYZFWMQDYZG&fm=SEARCH&iid=8781c90e-531d-491b-a69d-7308eedb28dd.MOBFBH5TN3NGYZFW.SEARCH&ppt=SearchPage&ppn=Search&ssid=6f7un8xh8zwdxwjk1554373855026&qH=1a548ee2b3f65af5"
-        },
-        {
-            "prod_id": "prod2",
-            "flipkart_url": "https://www.flipkart.com/redmi-y2-black-32-gb/p/itmfdkcmhbrkskm4?pid=MOBFAANUCBGSRADJ&srno=s_1_1&otracker=search&otracker1=search&lid=LSTMOBFAANUCBGSRADJICFA9Q&fm=SEARCH&iid=07ee8d0c-1367-4490-87c2-7944ace49bd9.MOBFAANUCBGSRADJ.SEARCH&ppt=SearchPage&ppn=Search&ssid=64z4h9erpv4129z41554373925435&qH=1292bb4d4fe56a47"
-        },
-        {
-            "prod_id": "prod3",
-            "flipkart_url": "https://www.flipkart.com/samsung-galaxy-note-9-midnight-black-128-gb/p/itmf7x9ztsgfpf8h?pid=MOBF7HXTTGYTYUZV&srno=s_1_2&otracker=search&otracker1=search&lid=LSTMOBF7HXTTGYTYUZVEKIU2W&fm=SEARCH&iid=c2297b8b-d4f0-47ae-965b-1721de1bb451.MOBF7HXTTGYTYUZV.SEARCH&ppt=SearchPage&ppn=Search&ssid=j4wo22o63d47ixa81554374054544&qH=0a8594287dffa284"
-        },
-        {
-            "prod_id": "prod4",
-            "flipkart_url": "https://www.flipkart.com/google-pixel-3-clearly-white-64-gb/p/itmfbuyqxkruzg7j?pid=MOBF9GAPM7YHP9PZ&srno=s_1_2&otracker=search&otracker1=search&lid=LSTMOBF9GAPM7YHP9PZIQ5GBG&fm=SEARCH&iid=1f82d794-4752-4755-9f0b-b7cc679acbed.MOBF9GAPM7YHP9PZ.SEARCH&ppt=SearchPage&ppn=Search&ssid=wk3mho3b2pzyxwcg1554374258204&qH=a5380b7477493d77"
-        },
-        {
-            "prod_id": "prod5",
-            "flipkart_url": "https://www.flipkart.com/redmi-note-7-pro-space-black-64-gb/p/itmfegkx2gufuzhp?pid=MOBFDXZ36Y4DJBGM&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_0_10&otracker1=AS_QueryStore_OrganicAutoSuggest_0_10&lid=LSTMOBFDXZ36Y4DJBGMQF27GZ&fm=SEARCH&iid=0258c7ff-6450-451a-a2d9-8616464a0da6.MOBFDXZ36Y4DJBGM.SEARCH&ppt=SearchPage&ppn=Search&ssid=rm9bokarw47owjr41554374535366&qH=6c53ec9c5a4ebbd0"
-        },
-        {
-            "prod_id": "prod6",
-            "flipkart_url": "https://www.flipkart.com/oppo-f11-pro-thunder-black-64-gb/p/itmfe6k2gurv2a3p?pid=MOBFE6K2KQDSWAM8&srno=s_1_2&otracker=search&otracker1=search&lid=LSTMOBFE6K2KQDSWAM8CY2ZL4&fm=SEARCH&iid=2df42b80-f755-4c52-bab4-df5390a262ec.MOBFE6K2KQDSWAM8.SEARCH&ppt=SearchPage&ppn=Search&ssid=t61wcizkfodav37k1554374683648&qH=dd594aa045c8d7f7"
-        },
-        {
-            "prod_id": "prod7",
-            "flipkart_url": "https://www.flipkart.com/vivo-y93-nebula-purple-32-gb/p/itmfcxfhhbnzascf?pid=MOBFBYKSRZFCX2NS&srno=s_1_2&otracker=search&otracker1=search&lid=LSTMOBFBYKSRZFCX2NSYR301H&fm=SEARCH&iid=6b3390b7-b018-4f3f-ab00-881859ddfa7f.MOBFBYKSRZFCX2NS.SEARCH&ppt=ProductPage&ppn=ProductPage&ssid=o481hwfdv16uixhc1554374872563&qH=cdae3a3a0484e829"
-        },
-        {
-            "prod_id": "prod8",
-            "flipkart_url": "https://www.flipkart.com/moto-g7-power-ceramic-black-64-gb/p/itmfdpkbvreye3jh?pid=MOBFDPKBGFFGYHWZ&srno=s_1_1&otracker=search&otracker1=search&lid=LSTMOBFDPKBGFFGYHWZJVIKRW&fm=SEARCH&iid=96955937-efb5-470f-b7ef-14fdf73548b4.MOBFDPKBGFFGYHWZ.SEARCH&ppt=SearchPage&ppn=Search&ssid=xqckt9ltvjomrvuo1554375001942&qH=cdef465323bba12d"
-        },
-        {
-            "prod_id": "prod9",
-            "flipkart_url": "https://www.flipkart.com/honor-9-lite-glacier-grey-64-gb/p/itmff5zgdeckztpk?pid=MOBFF5ZGFJB78ZDB&srno=s_1_3&otracker=search&otracker1=search&lid=LSTMOBFF5ZGFJB78ZDBDG0SNP&fm=SEARCH&iid=20fd8290-356f-4cb9-968c-9afc5b6aedfa.MOBFF5ZGFJB78ZDB.SEARCH&ppt=ProductPage&ppn=ProductPage&ssid=dlcqqkox6jxlp8g01554375339230&qH=542f7dd6e65d8320"
-        },
-        {
-            "prod_id": "prod10",
-            "flipkart_url": "https://www.flipkart.com/moto-e5-plus-fine-gold-32-gb/p/itmf72ug9znghsz3?pid=MOBF7YTCXNAGRGYH&srno=s_1_1&otracker=search&otracker1=search&lid=LSTMOBF7YTCXNAGRGYH5ZWXTM&fm=SEARCH&iid=32041d53-0456-447c-bbf5-3be725b78a21.MOBF7YTCXNAGRGYH.SEARCH&ppt=SearchPage&ppn=Search&ssid=enqqeuimrylk1jb41554375415943&qH=d92d35a8ae26c473"
-        },
-        {
-            "prod_id": "prod11",
             "flipkart_url": "https://www.flipkart.com/samsung-galaxy-s10-prism-white-128-gb/p/itmfdyp64j3hsfzy?pid=MOBFDNHABB3V23FY&lid=LSTMOBFDNHABB3V23FYF7A1BE&marketplace=FLIPKART&srno=s_1_1&otracker=search&otracker1=search&fm=SEARCH&iid=6b83b45d-c34f-4cdd-8e5a-ea7aa31d1a3a.MOBFDNHABB3V23FY.SEARCH&ppt=SearchPage&ppn=Search&ssid=nkogpi5pwh6os3cw1554440262755&qH=b1178ec9fccb84f3"
         },
         {
-            "prod_id": "prod12",
-            "flipkart_url": "https://www.flipkart.com/nokia-6-1-plus-black-64-gb/p/itmf8r36g9gfpafg?pid=MOBF8FCFB9KWUTVQ&srno=s_1_1&otracker=search&otracker1=search&lid=LSTMOBF8FCFB9KWUTVQCQ7AWU&fm=SEARCH&iid=10dbdba2-b6d7-49fc-8b34-b1ed027ee5af.MOBF8FCFB9KWUTVQ.SEARCH&ppt=SearchPage&ppn=Search&ssid=t131gagwyuyfiu4g1554440546989&qH=1973949757ebe20c"
-        },
-        {
-            "prod_id": "prod13",
+            "prod_id": "prod2",
             "flipkart_url": "https://www.flipkart.com/apple-iphone-xs-gold-64-gb/p/itmf944emgqmhujk?pid=MOBF944EAPESBRZM&srno=s_1_3&otracker=search&otracker1=search&lid=LSTMOBF944EAPESBRZM85IZXM&fm=SEARCH&iid=2261ebc6-d0df-42bb-b4d7-62aa67037cce.MOBF944EAPESBRZM.SEARCH&ppt=SearchPage&ppn=Search&ssid=s2vkokbmhh9hbk741554440889008&qH=25d150cd46c7b25c"
         },
         {
-            "prod_id": "prod14",
+            "prod_id": "prod3",
+            "flipkart_url": "https://www.flipkart.com/nokia-6-1-plus-black-64-gb/p/itmf8r36g9gfpafg?pid=MOBF8FCFB9KWUTVQ&srno=s_1_1&otracker=search&otracker1=search&lid=LSTMOBF8FCFB9KWUTVQCQ7AWU&fm=SEARCH&iid=10dbdba2-b6d7-49fc-8b34-b1ed027ee5af.MOBF8FCFB9KWUTVQ.SEARCH&ppt=SearchPage&ppn=Search&ssid=t131gagwyuyfiu4g1554440546989&qH=1973949757ebe20c"
+        },
+        {
+            "prod_id": "prod4",
+            "flipkart_url": "https://www.flipkart.com/nokia-7-1-gloss-midnight-blue-64-gb/p/itmfbqpxkyyhdrhy?pid=MOBFBPPUYRZWJSNG&srno=s_1_2&otracker=search&otracker1=search&lid=LSTMOBFBPPUYRZWJSNGUXAWMB&fm=SEARCH&iid=5217c3b6-ebc4-48d7-b0da-2fb7647c8624.MOBFBPPUYRZWJSNG.SEARCH&ppt=SearchPage&ppn=Search&ssid=s1oxfl7i6uluy51c1554441231436&qH=b6879799f4e98ebd"
+        },
+        {
+            "prod_id": "prod5",
             "flipkart_url": "https://www.flipkart.com/huawei-p20-lite-blue-64-gb/p/itmf85gwsmggfvyj?pid=MOBF8K38Y2CKC4J8&lid=LSTMOBF8K38Y2CKC4J8HIFSPQ&marketplace=FLIPKART&srno=s_1_1&otracker=search&otracker1=search&fm=SEARCH&iid=4709f8fd-d88d-4c87-adf5-1de2994dde44.MOBF8K38Y2CKC4J8.SEARCH&ppt=SearchPage&ppn=Search&ssid=kifmb2j1rwrzme4g1554441134131&qH=3641bc4a18f970ee"
         },
         {
+            "prod_id": "prod6",
+            "flipkart_url": "https://www.flipkart.com/redmi-6-pro-lake-blue-64-gb/p/itmfdswrffgpqv7z?pid=MOBFBH5TN3NGYZFW&srno=s_1_1&otracker=search&otracker1=search&lid=LSTMOBFBH5TN3NGYZFWMQDYZG&fm=SEARCH&iid=8781c90e-531d-491b-a69d-7308eedb28dd.MOBFBH5TN3NGYZFW.SEARCH&ppt=SearchPage&ppn=Search&ssid=6f7un8xh8zwdxwjk1554373855026&qH=1a548ee2b3f65af5"
+        },
+        {
+            "prod_id": "prod7",
+            "flipkart_url": "https://www.flipkart.com/redmi-y2-black-32-gb/p/itmfdkcmhbrkskm4?pid=MOBFAANUCBGSRADJ&srno=s_1_1&otracker=search&otracker1=search&lid=LSTMOBFAANUCBGSRADJICFA9Q&fm=SEARCH&iid=07ee8d0c-1367-4490-87c2-7944ace49bd9.MOBFAANUCBGSRADJ.SEARCH&ppt=SearchPage&ppn=Search&ssid=64z4h9erpv4129z41554373925435&qH=1292bb4d4fe56a47"
+        },
+        {
+            "prod_id": "prod8",
+            "flipkart_url": "https://www.flipkart.com/samsung-galaxy-note-9-midnight-black-128-gb/p/itmf7x9ztsgfpf8h?pid=MOBF7HXTTGYTYUZV&srno=s_1_2&otracker=search&otracker1=search&lid=LSTMOBF7HXTTGYTYUZVEKIU2W&fm=SEARCH&iid=c2297b8b-d4f0-47ae-965b-1721de1bb451.MOBF7HXTTGYTYUZV.SEARCH&ppt=SearchPage&ppn=Search&ssid=j4wo22o63d47ixa81554374054544&qH=0a8594287dffa284"
+        },
+        {
+            "prod_id": "prod9",
+            "flipkart_url": "https://www.flipkart.com/google-pixel-3-clearly-white-64-gb/p/itmfbuyqxkruzg7j?pid=MOBF9GAPM7YHP9PZ&srno=s_1_2&otracker=search&otracker1=search&lid=LSTMOBF9GAPM7YHP9PZIQ5GBG&fm=SEARCH&iid=1f82d794-4752-4755-9f0b-b7cc679acbed.MOBF9GAPM7YHP9PZ.SEARCH&ppt=SearchPage&ppn=Search&ssid=wk3mho3b2pzyxwcg1554374258204&qH=a5380b7477493d77"
+        },
+        {
+            "prod_id": "prod10",
+            "flipkart_url": "https://www.flipkart.com/redmi-note-7-pro-space-black-64-gb/p/itmfegkx2gufuzhp?pid=MOBFDXZ36Y4DJBGM&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_0_10&otracker1=AS_QueryStore_OrganicAutoSuggest_0_10&lid=LSTMOBFDXZ36Y4DJBGMQF27GZ&fm=SEARCH&iid=0258c7ff-6450-451a-a2d9-8616464a0da6.MOBFDXZ36Y4DJBGM.SEARCH&ppt=SearchPage&ppn=Search&ssid=rm9bokarw47owjr41554374535366&qH=6c53ec9c5a4ebbd0"
+        },
+        {
+            "prod_id": "prod11",
+            "flipkart_url": "https://www.flipkart.com/oppo-f11-pro-thunder-black-64-gb/p/itmfe6k2gurv2a3p?pid=MOBFE6K2KQDSWAM8&srno=s_1_2&otracker=search&otracker1=search&lid=LSTMOBFE6K2KQDSWAM8CY2ZL4&fm=SEARCH&iid=2df42b80-f755-4c52-bab4-df5390a262ec.MOBFE6K2KQDSWAM8.SEARCH&ppt=SearchPage&ppn=Search&ssid=t61wcizkfodav37k1554374683648&qH=dd594aa045c8d7f7"
+        },
+        {
+            "prod_id": "prod12",
+            "flipkart_url": "https://www.flipkart.com/vivo-y93-nebula-purple-32-gb/p/itmfcxfhhbnzascf?pid=MOBFBYKSRZFCX2NS&srno=s_1_2&otracker=search&otracker1=search&lid=LSTMOBFBYKSRZFCX2NSYR301H&fm=SEARCH&iid=6b3390b7-b018-4f3f-ab00-881859ddfa7f.MOBFBYKSRZFCX2NS.SEARCH&ppt=ProductPage&ppn=ProductPage&ssid=o481hwfdv16uixhc1554374872563&qH=cdae3a3a0484e829"
+        },
+        {
+            "prod_id": "prod13",
+            "flipkart_url": "https://www.flipkart.com/moto-g7-power-ceramic-black-64-gb/p/itmfdpkbvreye3jh?pid=MOBFDPKBGFFGYHWZ&srno=s_1_1&otracker=search&otracker1=search&lid=LSTMOBFDPKBGFFGYHWZJVIKRW&fm=SEARCH&iid=96955937-efb5-470f-b7ef-14fdf73548b4.MOBFDPKBGFFGYHWZ.SEARCH&ppt=SearchPage&ppn=Search&ssid=xqckt9ltvjomrvuo1554375001942&qH=cdef465323bba12d"
+        },
+        {
+            "prod_id": "prod14",
+            "flipkart_url": "https://www.flipkart.com/honor-9-lite-glacier-grey-64-gb/p/itmff5zgdeckztpk?pid=MOBFF5ZGFJB78ZDB&srno=s_1_3&otracker=search&otracker1=search&lid=LSTMOBFF5ZGFJB78ZDBDG0SNP&fm=SEARCH&iid=20fd8290-356f-4cb9-968c-9afc5b6aedfa.MOBFF5ZGFJB78ZDB.SEARCH&ppt=ProductPage&ppn=ProductPage&ssid=dlcqqkox6jxlp8g01554375339230&qH=542f7dd6e65d8320"
+        },
+        {
             "prod_id": "prod15",
-            "flipkart_url": "https://www.flipkart.com/nokia-7-1-gloss-midnight-blue-64-gb/p/itmfbqpxkyyhdrhy?pid=MOBFBPPUYRZWJSNG&srno=s_1_2&otracker=search&otracker1=search&lid=LSTMOBFBPPUYRZWJSNGUXAWMB&fm=SEARCH&iid=5217c3b6-ebc4-48d7-b0da-2fb7647c8624.MOBFBPPUYRZWJSNG.SEARCH&ppt=SearchPage&ppn=Search&ssid=s1oxfl7i6uluy51c1554441231436&qH=b6879799f4e98ebd"
+            "flipkart_url": "https://www.flipkart.com/moto-e5-plus-fine-gold-32-gb/p/itmf72ug9znghsz3?pid=MOBF7YTCXNAGRGYH&srno=s_1_1&otracker=search&otracker1=search&lid=LSTMOBF7YTCXNAGRGYH5ZWXTM&fm=SEARCH&iid=32041d53-0456-447c-bbf5-3be725b78a21.MOBF7YTCXNAGRGYH.SEARCH&ppt=SearchPage&ppn=Search&ssid=enqqeuimrylk1jb41554375415943&qH=d92d35a8ae26c473"
         }
+        
     ],
     "paytm_mall":[
         {
             "prod_id": "prod1",
-            "paytm_mall_url": "https://paytmmall.com/redmi-note-6-pro-4gb-64gb-black-MOBREDMI-NOTE-6TECH22138CA038822-pdp?product_id=239297251&src=search-grid&sid=85371a91-34ca-4b8d-be65-88d92eb8f866&cid=66781&tracker=organic%7C66781%7Credmi%206%20pro%7Cgrid%7CSearch_experimentName%3Dnew_ranking%7C%7C1%7Cnew_ranking&site_id=2&child_site_id="
-        },
-        {
-            "prod_id": "prod2",
-            "paytm_mall_url": "https://paytmmall.com/redmi-y2-3gb-32gb-black-MOBREDMI-Y2-3GBGADG589512E6091932-pdp?product_id=233410408&src=search-grid&sid=22ff30f1-895a-448d-af98-64807163c965&cid=66781&tracker=organic%7C66781%7Credmi%20y2%7Cgrid%7CSearch_experimentName%3Dnew_ranking%7C%7C1%7Cnew_ranking&site_id=2&child_site_id=6"
-        },
-        {
-            "prod_id": "prod3",
-            "paytm_mall_url": "https://paytmmall.com/samsung-galaxy-note-9-128-gb-midnight-black-MOBSAMSUNG-GALAHARD40022B125E3FD-pdp?product_id=203029908&src=search-grid&sid=6c4b2b0f-3869-4213-9469-b50c1bbbc292&cid=66781&tracker=organic%7C66781%7Csamsung%20galaxy%20note%209%7Cgrid%7CSearch_experimentName%3Dnew_ranking%7C%7C1%7Cnew_ranking&site_id=2&child_site_id=6"
-        },
-        {
-            "prod_id": "prod4",
-            "paytm_mall_url": "https://paytmmall.com/google-pixel-3-xl-4-gb-64-gb-just-black-MOBGOOGLE-PIXELTECH81743CBEE671D-pdp?product_id=224206527&src=search-grid&sid=2fc48a04-67f7-4ea0-9a1a-fa723315a6ca&cid=66781&tracker=organic%7C66781%7Cgoogle%20pixel%203%7Cgrid%7CSearch_experimentName%3Dnew_ranking%7C%7C1%7Cnew_ranking&site_id=2&child_site_id=6"
-        },
-        {
-            "prod_id": "prod5",
-            "paytm_mall_url": "https://paytmmall.com/redmi-note-7-3-gb-32-gb-black-MOBREDMI-NOTE-7TECH2213869472AE2-pdp?product_id=239953752&src=search-grid&sid=04f3031e-13f7-4266-8c2d-e0c238b09b25&cid=66781&tracker=organic%7C66781%7Credmi%20note%207%7Cgrid%7CSearch_experimentName%3Dnew_ranking%7C%7C1%7Cnew_ranking&site_id=2&child_site_id=6"
-        },
-        {
-            "prod_id": "prod6",
-            "paytm_mall_url": "https://paytmmall.com/oppo-f11-pro-6-gb-64-gb-thunder-black-MOBOPPO-F11-PROFUTU62974599E5E14E-pdp?product_id=235554255&src=search-grid&sid=6aed6367-5853-4e26-8b77-b1ce2d8950c1&cid=66781&tracker=organic%7C66781%7Coppo%20f11%20pro%7Cgrid%7CSearch_experimentName%3Dnew_ranking%7C%7C1%7Cnew_ranking&site_id=2&child_site_id=6"
-        },
-        {
-            "prod_id": "prod7",
-            "paytm_mall_url": "https://paytmmall.com/vivo-y93-3-gb-64-gb-black-MOBVIVO-Y93-3-GGOEL2537615F2BCCB0-pdp?product_id=237338885&src=search-grid&sid=9971c8ee-3206-4f58-b959-759b9cb272c3&cid=66781&tracker=organic%7C66781%7Cvivo%20y91%7Cgrid%7CSearch_experimentName%3Dnew_ranking%7C%7C7%7Cnew_ranking&site_id=2&child_site_id=6"
-        },
-        {
-            "prod_id": "prod8",
-            "paytm_mall_url": "https://paytmmall.com/motorola-g7-power-4-gb-64-gb-black-MOBMOTOROLA-G7-INDI8673254FD64BBF-pdp?product_id=235808299&src=search-grid&sid=69470521-ec88-4245-b684-a3784c5e91fb&cid=66781&tracker=organic%7C66781%7Cmotorola%20g7%7Cgrid%7CSearch_experimentName%3Dnew_ranking%7C%7C1%7Cnew_ranking&site_id=2&child_site_id=6"
-        },
-        {
-            "prod_id": "prod9",
-            "paytm_mall_url": "https://paytmmall.com/honor-9-lite-64gb-sapphire-blue-MOBHONOR-9-LITEADVA202180D1AA5F11-pdp?product_id=204791777&src=search-grid&sid=4ac9cbc9-90a8-48a2-8539-3589bded5d0f&cid=66781&tracker=organic%7C66781%7Chonor%20play%7Cgrid%7CSearch_experimentName%3Dnew_ranking%7C%7C2%7Cnew_ranking&site_id=2&child_site_id=6"
-        },
-        {
-            "prod_id": "prod10",
-            "paytm_mall_url": "https://paytmmall.com/motorola-moto-e5-plus-32-gb-black-MOBMOTOROLA-MOTBRAN222802B8ACAB39-pdp?product_id=202496825&src=search-grid&sid=63040306-fb37-4f96-9cb8-43c927c63456&cid=66781&tracker=organic%7C66781%7Cmoto%20e5%20plus%7Cgrid%7CSearch_experimentName%3Dnew_ranking%7C%7C1%7Cnew_ranking&site_id=2&child_site_id=6"
-        },
-        {
-            "prod_id": "prod11",
             "paytm_mall_url": "https://paytmmall.com/samsung-galaxy-s10-8-gb-128-gb-white-MOBSAMSUNG-GALAHARD4002290ED632E-pdp?product_id=234393656&src=search-grid&sid=1e1de212-f69a-4f72-a0f4-ee0a3e5daa67&cid=66781&tracker=organic%7C66781%7Csamsung%20s10%7Cgrid%7CSearch_experimentName%3Dnew_ranking%7C%7C1%7Cnew_ranking&site_id=2&child_site_id=6"
         },
         {
-            "prod_id": "prod12",
-            "paytm_mall_url": "https://paytmmall.com/nokia-6-1-plus-4-gb-64-gb-black-MOBNOKIA-6-1-PLLONG6493993F7E8525-pdp?product_id=237419047&src=search-grid&sid=becc53f8-643b-48a5-8398-192b8a05fea8&cid=66781&tracker=organic%7C66781%7Cnokia%206.1%7Cgrid%7CSearch_experimentName%3Dnew_ranking%7C%7C3%7Cnew_ranking&site_id=2&child_site_id=6"
-        },
-        {
-            "prod_id": "prod13",
+            "prod_id": "prod2",
             "paytm_mall_url": "https://paytmmall.com/apple-iphone-xs-64-gb-gold-MOBAPPLE-IPHONETELE288739237C8CD7-pdp?product_id=210076982&src=search-grid&sid=1cdf3ea8-8bd7-44de-a414-e45cc6b0846c&cid=66781&tracker=organic%7C66781%7Ciphone%20xs%7Cgrid%7CSearch_experimentName%3Dnew_ranking%7C%7C2%7Cnew_ranking&site_id=2&child_site_id=6"
         },
         {
-            "prod_id": "prod14",
+            "prod_id": "prod3",
+            "paytm_mall_url": "https://paytmmall.com/nokia-6-1-plus-4-gb-64-gb-black-MOBNOKIA-6-1-PLLONG6493993F7E8525-pdp?product_id=237419047&src=search-grid&sid=becc53f8-643b-48a5-8398-192b8a05fea8&cid=66781&tracker=organic%7C66781%7Cnokia%206.1%7Cgrid%7CSearch_experimentName%3Dnew_ranking%7C%7C3%7Cnew_ranking&site_id=2&child_site_id=6"
+        },
+        {
+            "prod_id": "prod4",
             "paytm_mall_url": ""
         },
         {
-            "prod_id": "prod15",
+            "prod_id": "prod5",
             "paytm_mall_url": ""
+        },
+        {
+            "prod_id": "prod6",
+            "paytm_mall_url": "https://paytmmall.com/redmi-note-6-pro-4gb-64gb-black-MOBREDMI-NOTE-6TECH22138CA038822-pdp?product_id=239297251&src=search-grid&sid=85371a91-34ca-4b8d-be65-88d92eb8f866&cid=66781&tracker=organic%7C66781%7Credmi%206%20pro%7Cgrid%7CSearch_experimentName%3Dnew_ranking%7C%7C1%7Cnew_ranking&site_id=2&child_site_id="
+        },
+        {
+            "prod_id": "prod7",
+            "paytm_mall_url": "https://paytmmall.com/redmi-y2-3gb-32gb-black-MOBREDMI-Y2-3GBGADG589512E6091932-pdp?product_id=233410408&src=search-grid&sid=22ff30f1-895a-448d-af98-64807163c965&cid=66781&tracker=organic%7C66781%7Credmi%20y2%7Cgrid%7CSearch_experimentName%3Dnew_ranking%7C%7C1%7Cnew_ranking&site_id=2&child_site_id=6"
+        },
+        {
+            "prod_id": "prod8",
+            "paytm_mall_url": "https://paytmmall.com/samsung-galaxy-note-9-128-gb-midnight-black-MOBSAMSUNG-GALAHARD40022B125E3FD-pdp?product_id=203029908&src=search-grid&sid=6c4b2b0f-3869-4213-9469-b50c1bbbc292&cid=66781&tracker=organic%7C66781%7Csamsung%20galaxy%20note%209%7Cgrid%7CSearch_experimentName%3Dnew_ranking%7C%7C1%7Cnew_ranking&site_id=2&child_site_id=6"
+        },
+        {
+            "prod_id": "prod9",
+            "paytm_mall_url": "https://paytmmall.com/google-pixel-3-xl-4-gb-64-gb-just-black-MOBGOOGLE-PIXELTECH81743CBEE671D-pdp?product_id=224206527&src=search-grid&sid=2fc48a04-67f7-4ea0-9a1a-fa723315a6ca&cid=66781&tracker=organic%7C66781%7Cgoogle%20pixel%203%7Cgrid%7CSearch_experimentName%3Dnew_ranking%7C%7C1%7Cnew_ranking&site_id=2&child_site_id=6"
+        },
+        {
+            "prod_id": "prod10",
+            "paytm_mall_url": "https://paytmmall.com/redmi-note-7-3-gb-32-gb-black-MOBREDMI-NOTE-7TECH2213869472AE2-pdp?product_id=239953752&src=search-grid&sid=04f3031e-13f7-4266-8c2d-e0c238b09b25&cid=66781&tracker=organic%7C66781%7Credmi%20note%207%7Cgrid%7CSearch_experimentName%3Dnew_ranking%7C%7C1%7Cnew_ranking&site_id=2&child_site_id=6"
+        },
+        {
+            "prod_id": "prod11",
+            "paytm_mall_url": "https://paytmmall.com/oppo-f11-pro-6-gb-64-gb-thunder-black-MOBOPPO-F11-PROFUTU62974599E5E14E-pdp?product_id=235554255&src=search-grid&sid=6aed6367-5853-4e26-8b77-b1ce2d8950c1&cid=66781&tracker=organic%7C66781%7Coppo%20f11%20pro%7Cgrid%7CSearch_experimentName%3Dnew_ranking%7C%7C1%7Cnew_ranking&site_id=2&child_site_id=6"
+        },
+        {
+            "prod_id": "prod12",
+            "paytm_mall_url": "https://paytmmall.com/vivo-y93-3-gb-64-gb-black-MOBVIVO-Y93-3-GGOEL2537615F2BCCB0-pdp?product_id=237338885&src=search-grid&sid=9971c8ee-3206-4f58-b959-759b9cb272c3&cid=66781&tracker=organic%7C66781%7Cvivo%20y91%7Cgrid%7CSearch_experimentName%3Dnew_ranking%7C%7C7%7Cnew_ranking&site_id=2&child_site_id=6"
+        },
+        {
+            "prod_id": "prod13",
+            "paytm_mall_url": "https://paytmmall.com/motorola-g7-power-4-gb-64-gb-black-MOBMOTOROLA-G7-INDI8673254FD64BBF-pdp?product_id=235808299&src=search-grid&sid=69470521-ec88-4245-b684-a3784c5e91fb&cid=66781&tracker=organic%7C66781%7Cmotorola%20g7%7Cgrid%7CSearch_experimentName%3Dnew_ranking%7C%7C1%7Cnew_ranking&site_id=2&child_site_id=6"
+        },
+        {
+            "prod_id": "prod14",
+            "paytm_mall_url": "https://paytmmall.com/honor-9-lite-64gb-sapphire-blue-MOBHONOR-9-LITEADVA202180D1AA5F11-pdp?product_id=204791777&src=search-grid&sid=4ac9cbc9-90a8-48a2-8539-3589bded5d0f&cid=66781&tracker=organic%7C66781%7Chonor%20play%7Cgrid%7CSearch_experimentName%3Dnew_ranking%7C%7C2%7Cnew_ranking&site_id=2&child_site_id=6"
+        },
+        {
+            "prod_id": "prod15",
+            "paytm_mall_url": "https://paytmmall.com/motorola-moto-e5-plus-32-gb-black-MOBMOTOROLA-MOTBRAN222802B8ACAB39-pdp?product_id=202496825&src=search-grid&sid=63040306-fb37-4f96-9cb8-43c927c63456&cid=66781&tracker=organic%7C66781%7Cmoto%20e5%20plus%7Cgrid%7CSearch_experimentName%3Dnew_ranking%7C%7C1%7Cnew_ranking&site_id=2&child_site_id=6"
         }
+
+
     ]
 }
