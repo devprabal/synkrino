@@ -42,23 +42,23 @@
         },
         {
             "prod_id": "prod11",
-            "amazon_url": "https://www.amazon.in/Moto-Plus-Indigo-Black-battery/dp/B077PWK5BT/ref=zg_bs_1805560031_50?_encoding=UTF8&psc=1&refRID=1MYVCMGTNZVQH1KK5YXP"
+            "amazon_url": "https://www.amazon.in/Samsung-Galaxy-128GB-Storage-Offer/dp/B07KXCK8S6/ref=sr_1_1?keywords=samsung+s10&qid=1554440290&s=gateway&sr=8-1"
         },
         {
             "prod_id": "prod12",
-            "amazon_url": "https://www.amazon.in/Moto-Plus-Indigo-Black-battery/dp/B077PWK5BT/ref=zg_bs_1805560031_50?_encoding=UTF8&psc=1&refRID=1MYVCMGTNZVQH1KK5YXP"
+            "amazon_url": "https://www.amazon.in/Nokia-6-1-Plus-Black-64Gb/dp/B07M7PJNYJ/ref=sr_1_4?keywords=nokia+6.1&qid=1554440579&s=gateway&sr=8-4"
         },
         {
             "prod_id": "prod13",
-            "amazon_url": "https://www.amazon.in/Moto-Plus-Indigo-Black-battery/dp/B077PWK5BT/ref=zg_bs_1805560031_50?_encoding=UTF8&psc=1&refRID=1MYVCMGTNZVQH1KK5YXP"
+            "amazon_url": "https://www.amazon.in/Apple-iPhone-Xs-64GB-Gold/dp/B07J316BT2/ref=sr_1_3?keywords=iphone+xs&qid=1554440858&s=gateway&sr=8-3"
         },
         {
             "prod_id": "prod14",
-            "amazon_url": "https://www.amazon.in/Moto-Plus-Indigo-Black-battery/dp/B077PWK5BT/ref=zg_bs_1805560031_50?_encoding=UTF8&psc=1&refRID=1MYVCMGTNZVQH1KK5YXP"
+            "amazon_url": "https://www.amazon.in/Huawei-Lite-Blue-64GB-Storage/dp/B0784D8628/ref=sr_1_3?keywords=huawei+p20+lite&qid=1554441141&s=gateway&sr=8-3"
         },
         {
             "prod_id": "prod15",
-            "amazon_url": "https://www.amazon.in/Moto-Plus-Indigo-Black-battery/dp/B077PWK5BT/ref=zg_bs_1805560031_50?_encoding=UTF8&psc=1&refRID=1MYVCMGTNZVQH1KK5YXP"
+            "amazon_url": "https://www.amazon.in/Nokia-7-1_BL-Blue-64GB-Storage/dp/B07L8DZP8P/ref=sr_1_1?keywords=nokia+7.1&qid=1554441286&s=gateway&sr=8-1"
         }
     ],
     "flipkart": [
@@ -104,23 +104,23 @@
         },
         {
             "prod_id": "prod11",
-            "flipkart_url": "https://www.amazon.in/Moto-Plus-Indigo-Black-battery/dp/B077PWK5BT/ref=zg_bs_1805560031_50?_encoding=UTF8&psc=1&refRID=1MYVCMGTNZVQH1KK5YXP"
+            "flipkart_url": "https://www.flipkart.com/samsung-galaxy-s10-prism-white-128-gb/p/itmfdyp64j3hsfzy?pid=MOBFDNHABB3V23FY&lid=LSTMOBFDNHABB3V23FYF7A1BE&marketplace=FLIPKART&srno=s_1_1&otracker=search&otracker1=search&fm=SEARCH&iid=6b83b45d-c34f-4cdd-8e5a-ea7aa31d1a3a.MOBFDNHABB3V23FY.SEARCH&ppt=SearchPage&ppn=Search&ssid=nkogpi5pwh6os3cw1554440262755&qH=b1178ec9fccb84f3"
         },
         {
             "prod_id": "prod12",
-            "flipkart_url": "https://www.amazon.in/Moto-Plus-Indigo-Black-battery/dp/B077PWK5BT/ref=zg_bs_1805560031_50?_encoding=UTF8&psc=1&refRID=1MYVCMGTNZVQH1KK5YXP"
+            "flipkart_url": "https://www.flipkart.com/nokia-6-1-plus-black-64-gb/p/itmf8r36g9gfpafg?pid=MOBF8FCFB9KWUTVQ&srno=s_1_1&otracker=search&otracker1=search&lid=LSTMOBF8FCFB9KWUTVQCQ7AWU&fm=SEARCH&iid=10dbdba2-b6d7-49fc-8b34-b1ed027ee5af.MOBF8FCFB9KWUTVQ.SEARCH&ppt=SearchPage&ppn=Search&ssid=t131gagwyuyfiu4g1554440546989&qH=1973949757ebe20c"
         },
         {
             "prod_id": "prod13",
-            "flipkart_url": "https://www.amazon.in/Moto-Plus-Indigo-Black-battery/dp/B077PWK5BT/ref=zg_bs_1805560031_50?_encoding=UTF8&psc=1&refRID=1MYVCMGTNZVQH1KK5YXP"
+            "flipkart_url": "https://www.flipkart.com/apple-iphone-xs-gold-64-gb/p/itmf944emgqmhujk?pid=MOBF944EAPESBRZM&srno=s_1_3&otracker=search&otracker1=search&lid=LSTMOBF944EAPESBRZM85IZXM&fm=SEARCH&iid=2261ebc6-d0df-42bb-b4d7-62aa67037cce.MOBF944EAPESBRZM.SEARCH&ppt=SearchPage&ppn=Search&ssid=s2vkokbmhh9hbk741554440889008&qH=25d150cd46c7b25c"
         },
         {
             "prod_id": "prod14",
-            "flipkart_url": "https://www.amazon.in/Moto-Plus-Indigo-Black-battery/dp/B077PWK5BT/ref=zg_bs_1805560031_50?_encoding=UTF8&psc=1&refRID=1MYVCMGTNZVQH1KK5YXP"
+            "flipkart_url": "https://www.flipkart.com/huawei-p20-lite-blue-64-gb/p/itmf85gwsmggfvyj?pid=MOBF8K38Y2CKC4J8&lid=LSTMOBF8K38Y2CKC4J8HIFSPQ&marketplace=FLIPKART&srno=s_1_1&otracker=search&otracker1=search&fm=SEARCH&iid=4709f8fd-d88d-4c87-adf5-1de2994dde44.MOBF8K38Y2CKC4J8.SEARCH&ppt=SearchPage&ppn=Search&ssid=kifmb2j1rwrzme4g1554441134131&qH=3641bc4a18f970ee"
         },
         {
             "prod_id": "prod15",
-            "flipkart_url": "https://www.amazon.in/Moto-Plus-Indigo-Black-battery/dp/B077PWK5BT/ref=zg_bs_1805560031_50?_encoding=UTF8&psc=1&refRID=1MYVCMGTNZVQH1KK5YXP"
+            "flipkart_url": "https://www.flipkart.com/nokia-7-1-gloss-midnight-blue-64-gb/p/itmfbqpxkyyhdrhy?pid=MOBFBPPUYRZWJSNG&srno=s_1_2&otracker=search&otracker1=search&lid=LSTMOBFBPPUYRZWJSNGUXAWMB&fm=SEARCH&iid=5217c3b6-ebc4-48d7-b0da-2fb7647c8624.MOBFBPPUYRZWJSNG.SEARCH&ppt=SearchPage&ppn=Search&ssid=s1oxfl7i6uluy51c1554441231436&qH=b6879799f4e98ebd"
         }
     ],
     "paytm_mall":[
@@ -166,23 +166,23 @@
         },
         {
             "prod_id": "prod11",
-            "paytm_mall_url": "https://www.amazon.in/Moto-Plus-Indigo-Black-battery/dp/B077PWK5BT/ref=zg_bs_1805560031_50?_encoding=UTF8&psc=1&refRID=1MYVCMGTNZVQH1KK5YXP"
+            "paytm_mall_url": "https://paytmmall.com/samsung-galaxy-s10-8-gb-128-gb-white-MOBSAMSUNG-GALAHARD4002290ED632E-pdp?product_id=234393656&src=search-grid&sid=1e1de212-f69a-4f72-a0f4-ee0a3e5daa67&cid=66781&tracker=organic%7C66781%7Csamsung%20s10%7Cgrid%7CSearch_experimentName%3Dnew_ranking%7C%7C1%7Cnew_ranking&site_id=2&child_site_id=6"
         },
         {
             "prod_id": "prod12",
-            "paytm_mall_url": "https://www.amazon.in/Moto-Plus-Indigo-Black-battery/dp/B077PWK5BT/ref=zg_bs_1805560031_50?_encoding=UTF8&psc=1&refRID=1MYVCMGTNZVQH1KK5YXP"
+            "paytm_mall_url": "https://paytmmall.com/nokia-6-1-plus-4-gb-64-gb-black-MOBNOKIA-6-1-PLLONG6493993F7E8525-pdp?product_id=237419047&src=search-grid&sid=becc53f8-643b-48a5-8398-192b8a05fea8&cid=66781&tracker=organic%7C66781%7Cnokia%206.1%7Cgrid%7CSearch_experimentName%3Dnew_ranking%7C%7C3%7Cnew_ranking&site_id=2&child_site_id=6"
         },
         {
             "prod_id": "prod13",
-            "paytm_mall_url": "https://www.amazon.in/Moto-Plus-Indigo-Black-battery/dp/B077PWK5BT/ref=zg_bs_1805560031_50?_encoding=UTF8&psc=1&refRID=1MYVCMGTNZVQH1KK5YXP"
+            "paytm_mall_url": "https://paytmmall.com/apple-iphone-xs-64-gb-gold-MOBAPPLE-IPHONETELE288739237C8CD7-pdp?product_id=210076982&src=search-grid&sid=1cdf3ea8-8bd7-44de-a414-e45cc6b0846c&cid=66781&tracker=organic%7C66781%7Ciphone%20xs%7Cgrid%7CSearch_experimentName%3Dnew_ranking%7C%7C2%7Cnew_ranking&site_id=2&child_site_id=6"
         },
         {
             "prod_id": "prod14",
-            "paytm_mall_url": "https://www.amazon.in/Moto-Plus-Indigo-Black-battery/dp/B077PWK5BT/ref=zg_bs_1805560031_50?_encoding=UTF8&psc=1&refRID=1MYVCMGTNZVQH1KK5YXP"
+            "paytm_mall_url": ""
         },
         {
             "prod_id": "prod15",
-            "paytm_mall_url": "https://www.amazon.in/Moto-Plus-Indigo-Black-battery/dp/B077PWK5BT/ref=zg_bs_1805560031_50?_encoding=UTF8&psc=1&refRID=1MYVCMGTNZVQH1KK5YXP"
+            "paytm_mall_url": ""
         }
     ]
 }
