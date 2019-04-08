@@ -47,6 +47,7 @@ def get_amazon_price(prod_id):
         #    print(browser_amazon.page_source)
 
             amazon_price = browser_amazon.find_element_by_id("priceblock_ourprice").text
+            amazon_price = amazon_price[:-3]
             amazon_price = '\u20B9'+str(amazon_price)
             browser_amazon.quit()
             end_time_amazon = time.time()
@@ -105,8 +106,8 @@ def get_flipkart_price(prod_id):
             my_dict['Samsung S10 Flipkart_url'] = url_flipkart
     else:
         price_and_delay = ["Product not available", '']
-        my_dict['Samsung S10 Amazon'] = price_and_delay
-        my_dict['Samsung S10 Amazon_url'] = url_flipkart
+        my_dict['Samsung S10 Flipkart'] = price_and_delay
+        my_dict['Samsung S10 Flipkart_url'] = url_flipkart
     
 
 
@@ -154,8 +155,8 @@ def get_paytm_mall_price(prod_id):
             my_dict['Samsung S10 PaytmMall_url'] = url_paytm_mall
     else:
         price_and_delay = ["Product not available", '']
-        my_dict['Samsung S10 Amazon'] = price_and_delay
-        my_dict['Samsung S10 Amazon_url'] = url_paytm_mall
+        my_dict['Samsung S10 PaytmMall'] = price_and_delay
+        my_dict['Samsung S10 PaytmMall_url'] = url_paytm_mall
 
 
 # End of prototype..
