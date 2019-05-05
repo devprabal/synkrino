@@ -4040,3 +4040,180 @@ JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 2
 [Parent 6587, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-bSHUpI/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
 1554711846957	Marionette	INFO	Stopped listening on port 43313
 [Parent 6589, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-bSHUpI/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1557078266031	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.6eii5yGx0DCj"
+1557078266032	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8tG9cDrbhmUg"
+1557078266032	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.MZN8aqVjOR1P"
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+1557078267278	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557078267279	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557078267279	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557078267281	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557078267281	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557078267282	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557078267282	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557078267282	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557078267282	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557078272462	Marionette	INFO	Listening on port 36389
+1557078272463	Marionette	INFO	Listening on port 33125
+1557078272466	Marionette	INFO	Listening on port 35769
+1557078272483	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557078272532	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557078272539	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557078276172	Marionette	INFO	Stopped listening on port 35769
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 7177, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1557078284448	Marionette	INFO	Stopped listening on port 36389
+[Child 7753, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 7753, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Parent 7175, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1557078318668	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.XJW0LSboTH8F"
+1557078318689	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.QWeVIncCulw1"
+1557078318689	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.mv56ty31sFFK"
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+1557078319043	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557078319043	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557078319044	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557078319070	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557078319070	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557078319070	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557078319094	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557078319095	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557078319095	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557078322735	Marionette	INFO	Listening on port 35337
+1557078322742	Marionette	INFO	Listening on port 36791
+1557078322766	Marionette	INFO	Listening on port 46845
+1557078322803	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557078322808	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557078322822	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557078327446	Marionette	INFO	Stopped listening on port 35337
+[Parent 8183, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1557078332420	Marionette	INFO	Stopped listening on port 36791
+[Parent 8184, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1557078451212	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.FdDkuSBMffbr"
+1557078451213	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8YrPaQJC0yEx"
+1557078451213	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.pZifqeEu4VQk"
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+1557078451609	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557078451610	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557078451611	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557078451618	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557078451618	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557078451618	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557078451635	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557078451635	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557078451635	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557078455627	Marionette	INFO	Listening on port 43973
+1557078455637	Marionette	INFO	Listening on port 45173
+1557078455669	Marionette	INFO	Listening on port 41825
+1557078455745	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557078455745	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557078455750	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557078462194	Marionette	INFO	Stopped listening on port 45173
+[Child 9618, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9618, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9618, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9618, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9618, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9618, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Parent 9135, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 9135, Gecko_IOThread] WARNING: pipe error (99): Connection reset by peer: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+JavaScript error: https://img1a.flixcart.com/www/linchpin/fk-cp-zion/js/raven.3.22.3.js, line 2: TypeError: 'abort' called on an object that does not implement interface XMLHttpRequest.
+1557078573656	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.oRbUYhPm67u7"
+1557078573656	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.W2VPAdoziYWC"
+*** You are running in headless mode.
+*** You are running in headless mode.
+1557078574159	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557078574160	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557078574161	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557078574165	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557078574165	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557078574165	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557078578528	Marionette	INFO	Listening on port 34089
+1557078578585	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557078578661	Marionette	INFO	Listening on port 35701
+1557078578673	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557078590955	Marionette	INFO	Stopped listening on port 34089
+[Parent 10371, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1557078592666	Marionette	INFO	Stopped listening on port 35701
+[Parent 10370, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 9538, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+Exiting due to channel error.
+[Child 9617, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9617, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9617, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9617, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9617, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9617, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9617, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9617, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9617, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9617, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9617, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9617, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9617, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9617, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9617, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9617, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9617, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9617, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9617, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9617, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9617, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9617, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9617, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9617, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9617, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9617, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9617, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9617, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9617, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9617, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9617, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9617, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9617, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9617, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9617, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9617, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9617, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9617, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9617, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-7Wqv6d/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
