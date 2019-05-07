@@ -24,6 +24,7 @@ def get_amazon_price(prod_id):
     with open('products.json') as json_file:
         detailed_prod_dict = json.load(json_file)
     url_amazon = detailed_prod_dict['amazon'][prod_id-1]['amazon_url']
+    name_amazon = detailed_prod_dict['amazon'][prod_id-1]['prod_id']
     if url_amazon!='':
         try:
             start_time_amazon = time.time()
@@ -58,14 +59,17 @@ def get_amazon_price(prod_id):
             price_and_delay = [amazon_price, end_time_amazon-start_time_amazon]
             my_dict['Samsung S10 Amazon'] = price_and_delay
             my_dict['Samsung S10 Amazon_url'] = url_amazon
+            my_dict['Samsung S10 Amazon_name'] = name_amazon
         except (TimeoutException,NoSuchElementException):
             price_and_delay = ["Takes too long, try again or click buy now to view product's webpage", 'maybe internet issues']
             my_dict['Samsung S10 Amazon'] = price_and_delay
             my_dict['Samsung S10 Amazon_url'] = url_amazon
+            my_dict['Samsung S10 Amazon_name'] = name_amazon
     else:
         price_and_delay = ["Product not available", '']
         my_dict['Samsung S10 Amazon'] = price_and_delay
         my_dict['Samsung S10 Amazon_url'] = url_amazon
+        my_dict['Samsung S10 Amazon_name'] = name_amazon
 
 
 
@@ -75,6 +79,7 @@ def get_flipkart_price(prod_id):
     with open('products.json') as json_file:
         detailed_prod_dict = json.load(json_file)
     url_flipkart = detailed_prod_dict['flipkart'][prod_id-1]['flipkart_url']
+    name_flipkart = detailed_prod_dict['flipkart'][prod_id-1]['prod_id']
     if url_flipkart!='':
         try:
             start_time_flipkart = time.time()
@@ -104,14 +109,17 @@ def get_flipkart_price(prod_id):
             price_and_delay = [flipkart_price, end_time_flipkart-start_time_flipkart]
             my_dict['Samsung S10 Flipkart'] = price_and_delay
             my_dict['Samsung S10 Flipkart_url'] = url_flipkart
+            my_dict['Samsung S10 name_flipkart'] = name_flipkart
         except TimeoutException:
             price_and_delay = ["Takes too long, try again or click buy now to view product's webpage", 'maybe internet issues']
             my_dict['Samsung S10 Flipkart'] = price_and_delay
             my_dict['Samsung S10 Flipkart_url'] = url_flipkart
+            my_dict['Samsung S10 name_flipkart'] = name_flipkart
     else:
         price_and_delay = ["Product not available", '']
         my_dict['Samsung S10 Flipkart'] = price_and_delay
         my_dict['Samsung S10 Flipkart_url'] = url_flipkart
+        my_dict['Samsung S10 name_flipkart'] = name_flipkart
     
 
 
@@ -124,6 +132,7 @@ def get_paytm_mall_price(prod_id):
     with open('products.json') as json_file:
         detailed_prod_dict = json.load(json_file)
     url_paytm_mall = detailed_prod_dict['paytm_mall'][prod_id -1]['paytm_mall_url']
+    name_paytm_mall = detailed_prod_dict['paytm_mall'][prod_id -1]['prod_id']
     if url_paytm_mall!='':
         try:
             start_time_paytm_mall = time.time()
@@ -153,14 +162,17 @@ def get_paytm_mall_price(prod_id):
             price_and_delay = [paytm_mall_price,end_time_paytm_mall-start_time_paytm_mall]
             my_dict['Samsung S10 PaytmMall'] = price_and_delay
             my_dict['Samsung S10 PaytmMall_url'] = url_paytm_mall
+            my_dict['Samsung S10 name_paytm_mall'] = name_paytm_mall
         except TimeoutException:
             price_and_delay = ["Takes too long, try again or click buy now to view product's webpage", 'maybe internet issues']
             my_dict['Samsung S10 PaytmMall'] = price_and_delay
             my_dict['Samsung S10 PaytmMall_url'] = url_paytm_mall
+            my_dict['Samsung S10 name_paytm_mall'] = name_paytm_mall
     else:
         price_and_delay = ["Product not available", '']
         my_dict['Samsung S10 PaytmMall'] = price_and_delay
         my_dict['Samsung S10 PaytmMall_url'] = url_paytm_mall
+        my_dict['Samsung S10 name_paytm_mall'] = name_paytm_mall
 
 
 # End of prototype..
@@ -253,7 +265,7 @@ def hello():
     main_end_time = time.time()
 #    return 'Amazon %s timetaken- %s<br/>Flipkart %s timetaken- %s<br/>Main execution time = %s <br/> <a href="/">Back Home</a>' % (my_dict['Samsung S10 Amazon'][0], my_dict['Samsung S10 Amazon'][1], my_dict['Samsung S10 Flipkart'][0], my_dict['Samsung S10 Flipkart'][1],main_end_time-main_start_time )
     # return render_template('price.html',amazon_price=my_dict['Samsung S10 Amazon'][0],flipkart_price=my_dict['Samsung S10 Flipkart'][0],paytm_mall_price=my_dict['Samsung S10 PaytmMall'][0],scraper_run_time=main_end_time-main_start_time)
-    return render_template('price.html', scraper_run_time=main_end_time-main_start_time, amazon_price=my_dict['Samsung S10 Amazon'][0], amazon_url=my_dict['Samsung S10 Amazon_url'], flipkart_price=my_dict['Samsung S10 Flipkart'][0], flipkart_url=my_dict['Samsung S10 Flipkart_url'], paytm_mall_price=my_dict['Samsung S10 PaytmMall'][0], paytm_mall_url=my_dict['Samsung S10 PaytmMall_url'])
+    return render_template('price.html', name_prod=my_dict['Samsung S10 Amazon_name'], scraper_run_time=main_end_time-main_start_time, amazon_price=my_dict['Samsung S10 Amazon'][0], amazon_url=my_dict['Samsung S10 Amazon_url'], flipkart_price=my_dict['Samsung S10 Flipkart'][0], flipkart_url=my_dict['Samsung S10 Flipkart_url'], paytm_mall_price=my_dict['Samsung S10 PaytmMall'][0], paytm_mall_url=my_dict['Samsung S10 PaytmMall_url'])
 
 
 if __name__ == '__main__':

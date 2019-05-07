@@ -1,63 +1,63 @@
 {
     "amazon": [
         {
-            "prod_id": "prod1",
+            "prod_id": "Samsung S10",
             "amazon_url": "https://www.amazon.in/Samsung-Galaxy-128GB-Storage-Offer/dp/B07KXCK8S6/ref=sr_1_1?keywords=samsung+s10&qid=1554440290&s=gateway&sr=8-1"
         },
         {
-            "prod_id": "prod2",
+            "prod_id": "iPhone XS",
             "amazon_url": "https://www.amazon.in/Apple-iPhone-Xs-64GB-Gold/dp/B07J316BT2/ref=sr_1_3?keywords=iphone+xs&qid=1554440858&s=gateway&sr=8-3"
         },
         {
-            "prod_id": "prod3",
+            "prod_id": "Nokia 6.1",
             "amazon_url": "https://www.amazon.in/Nokia-6-1-Plus-Black-64Gb/dp/B07M7PJNYJ/ref=sr_1_4?keywords=nokia+6.1&qid=1554440579&s=gateway&sr=8-4"
         },
         {
-            "prod_id": "prod4",
+            "prod_id": "Nokia 7.1",
             "amazon_url": "https://www.amazon.in/Nokia-7-1_BL-Blue-64GB-Storage/dp/B07L8DZP8P/ref=sr_1_1?keywords=nokia+7.1&qid=1554441286&s=gateway&sr=8-1"
         },
         {
-            "prod_id": "prod5",
+            "prod_id": "Huawei P20",
             "amazon_url": "https://www.amazon.in/Huawei-Lite-Blue-64GB-Storage/dp/B0784D8628/ref=sr_1_3?keywords=huawei+p20+lite&qid=1554441141&s=gateway&sr=8-3"
         },
         {
-            "prod_id": "prod6",
+            "prod_id": "Redmi 6 Pro",
             "amazon_url": "https://www.amazon.in/Redmi-Pro-Black-32GB-Storage/dp/B07DJL15QT/ref=zg_bs_1805560031_3?_encoding=UTF8&psc=1&refRID=1MYVCMGTNZVQH1KK5YXP"
         },
         {
-            "prod_id": "prod7",
+            "prod_id": "Redmi Y2",
             "amazon_url": "https://www.amazon.in/Redmi-Black-3GB-32GB-Storage/dp/B077Q7F7Z3/ref=zg_bs_1805560031_8?_encoding=UTF8&psc=1&refRID=1MYVCMGTNZVQH1KK5YXP"
         },
         {
-            "prod_id": "prod8",
+            "prod_id": "Galaxy Note 9",
             "amazon_url": "https://www.amazon.in/Samsung-Galaxy-Note-Midnight-Storage/dp/B07G8BNVDB/ref=sr_1_3?keywords=samsung+galaxy+note+9&qid=1554374071&s=gateway&sr=8-3"
         },
         {
-            "prod_id": "prod9",
+            "prod_id": "Google Pixel",
             "amazon_url": "https://www.amazon.in/Google-Pixel-Just-Black-Storage/dp/B07K2JSCX5/ref=sr_1_3?keywords=google+pixel+3&qid=1554374268&s=gateway&sr=8-3"
         },
         {
-            "prod_id": "prod10",
+            "prod_id": "Redmi Note 7",
             "amazon_url": "https://www.amazon.in/Redmi-Note-Onyx-Black-64GB/dp/B07PKTGR91/ref=sr_1_2?keywords=redmi+note+7&qid=1554374622&s=gateway&sr=8-2"
         },
         {
-            "prod_id": "prod11",
+            "prod_id": "Oppo F11",
             "amazon_url": "https://www.amazon.in/Oppo-Thunder-Black-Storage-Offer/dp/B07KXCK8SD/ref=zg_bs_1805560031_40?_encoding=UTF8&psc=1&refRID=1MYVCMGTNZVQH1KK5YXP"
         },
         {
-            "prod_id": "prod12",
+            "prod_id": "Vivo Y93",
             "amazon_url": "https://www.amazon.in/Vivo-1814-Starry-Black-Storage/dp/B07KXC1YG5/ref=sr_1_2?keywords=vivo+y93&qid=1554374901&s=gateway&sr=8-2"
         },
         {
-            "prod_id": "prod13",
+            "prod_id": "Moto G7",
             "amazon_url": "https://www.amazon.in/Motorola-XT1955-4-Moto-Power-Black/dp/B07NQGV37P"
         },
         {
-            "prod_id": "prod14",
+            "prod_id": "Honor Lite 9",
             "amazon_url": "https://www.amazon.in/Honor-Lite-Glacier-Grey-Memory/dp/B07BNRSZ4K/ref=sr_1_1?keywords=honor+9+lite&qid=1554375529&s=electronics&sr=1-1"
         },
         {
-            "prod_id": "prod15",
+            "prod_id": "Moto E5",
             "amazon_url": "https://www.amazon.in/Moto-Plus-Indigo-Black-battery/dp/B077PWK5BT/ref=zg_bs_1805560031_50?_encoding=UTF8&psc=1&refRID=1MYVCMGTNZVQH1KK5YXP"
         }
     ],
