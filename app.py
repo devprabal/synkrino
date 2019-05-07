@@ -11,7 +11,7 @@ from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as expected
 #from selenium.webdriver.common.alert import Alert
-#from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 app = Flask(__name__)
 
@@ -40,13 +40,17 @@ def get_amazon_price(prod_id):
             browser_amazon.get(url_amazon)
 
             wait = WebDriverWait(browser_amazon, timeout=20)
-            wait.until(expected.visibility_of_element_located((By.ID, 'priceblock_ourprice')))
+            #wait.until(expected.visibility_of_element_located((By.ID, 'priceblock_ourprice')))
+            # wait.until(expected.visibility_of_element_located((By.ID, 'priceblock_ourprice')))
+            
+            wait.until(expected.visibility_of_element_located((By.ID, 'priceblock_dealprice')))
 
             browser_amazon.execute_script("window.stop();")
 
         #    print(browser_amazon.page_source)
 
-            amazon_price = browser_amazon.find_element_by_id("priceblock_ourprice").text
+        #    amazon_price = browser_amazon.find_element_by_id("priceblock_ourprice").text
+            amazon_price = browser_amazon.find_element_by_id("priceblock_dealprice").text
             amazon_price = amazon_price[:-3]
             amazon_price = '\u20B9'+str(amazon_price)
             browser_amazon.quit()
@@ -54,7 +58,7 @@ def get_amazon_price(prod_id):
             price_and_delay = [amazon_price, end_time_amazon-start_time_amazon]
             my_dict['Samsung S10 Amazon'] = price_and_delay
             my_dict['Samsung S10 Amazon_url'] = url_amazon
-        except TimeoutException:
+        except (TimeoutException,NoSuchElementException):
             price_and_delay = ["Takes too long, try again or click buy now to view product's webpage", 'maybe internet issues']
             my_dict['Samsung S10 Amazon'] = price_and_delay
             my_dict['Samsung S10 Amazon_url'] = url_amazon
